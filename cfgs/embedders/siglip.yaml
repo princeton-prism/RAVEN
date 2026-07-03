@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: oc
+  oc_model: ViT-SO400M-14-SigLIP-384
+  oc_pretrained: webli
+  emb_dim: 1152

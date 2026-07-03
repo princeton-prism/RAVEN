@@ -1,0 +1,2 @@
+params:
+  device: cuda

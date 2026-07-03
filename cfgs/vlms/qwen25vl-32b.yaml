@@ -1,0 +1,5 @@
+_base_: base.yaml
+
+params:
+  full_name: "qwen2.5vl:32b-q4_K_M"
+  nick_name: "qwen25vl32"

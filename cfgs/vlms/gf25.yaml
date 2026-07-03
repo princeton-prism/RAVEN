@@ -1,0 +1,5 @@
+_base_: base.yaml
+
+params:
+  full_name: "gemini-2.5-flash"
+  nick_name: "gf25"

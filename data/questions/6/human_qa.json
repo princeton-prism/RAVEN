@@ -1,0 +1,665 @@
+{
+    "version": 0.1,
+    "data": [
+        {
+            "id": "6_LONG_f6065dfb-213b-467e-9fd8-f0e67a772191",
+            "length_category": "LONG",
+            "length": 470.97124314308167,
+            "start_time": 1674764983.0804641,
+            "end_time": 1674765454.0517073,
+            "file_info": {
+                "qa_start_filename": "1674764981.630344.pkl",
+                "qa_end_filename": "1674765452.650606.pkl",
+                "context_start_filename": "1674764993.631468.pkl",
+                "context_end_filename": "1674764993.731476.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:29:43. The current time is 2023-01-26 15:37:34 and you are located at [-76.31, 309.81, 0.65]. \n Is it sunny outside?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:29:55, the robot was at an average position of [-71.827, 272.612, 0.244].The robot saw the following: In the video, you see a university campus scene characterized by a wide, paved walkway. The ground is laid with a herringbone pattern, creating a visually appealing texture. \n\n### People:\n- A number of individuals are walking along the path, suggesting a busy atmosphere typical of a university setting. Some appear to be students, possibly engaged in conversation or heading to classes.\n- A few people are seen in groups, indicating social interactions, while others walk alone, perhaps focused on their phones or books.\n\n### Objects:\n- On the left side of the frame, there is a white vehicle parked along the curb, indicating accessibility for students and staff.\n- Metal railings line the steps leading up to a building on the right, providing safety for those navigating the stairs.\n\n### Environmental Features:\n- The scene is illuminated by bright sunlight, creating a warm and inviting atmosphere. The sunlight casts shadows from the trees lining the walkway, adding depth to the visual.\n- Large trees with lush green foliage are visible, contributing to a pleasant, natural environment amidst the urban setting.\n\n### Events/Activities:\n- The overall activity suggests a typical day on campus, with students moving between classes or socializing. The presence of the vehicle and the railings indicates a well-maintained campus designed for ease of movement.\n\n### Interesting Details:\n- The sunlight creates lens flares and highlights, adding a dynamic quality to the visuals.\n- The combination of natural elements (trees, sunlight) with the structured environment (paved paths, buildings) reflects the balance often found in university campuses.\n\nOverall, the scene captures a vibrant and lively atmosphere typical of a university setting, filled with movement and interaction.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_d0e0a27c-67f0-4186-b330-9148db321d15",
+            "length_category": "LONG",
+            "length": 588.9478576183319,
+            "start_time": 1674765109.6457891,
+            "end_time": 1674765698.5936468,
+            "file_info": {
+                "qa_start_filename": "1674765108.146488.pkl",
+                "qa_end_filename": "1674765697.244485.pkl",
+                "context_start_filename": "1674765174.757834.pkl",
+                "context_end_filename": "1674765174.859043.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:31:49. The current time is 2023-01-26 15:41:38 and you are located at [-67.37, 121.37, -0.87]. \n Where can I get food here?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:32:56, the robot was at an average position of [-183.526, 322.939, 1.106].The robot saw the following: In the video, you find yourself in a bustling university campus dining area. The floor is polished and shiny, reflecting the overhead lights, which creates a bright and inviting atmosphere.\n\n### People:\n- **Students**: A diverse group of students is present. Some are standing in line at the food counter, while others are engaged in conversation. \n- **Attire**: Students wear casual clothing\u2014jeans, t-shirts, and backpacks are common. One student has long hair and is wearing a light jacket, while another is in a patterned dress.\n- **Activities**: Some students are checking their phones, possibly looking at menus or texting friends. Others are chatting animatedly, suggesting a lively social environment.\n\n### Objects:\n- **Food Counters**: There are two main food counters visible. One is labeled \"SABOR,\" indicating a focus on flavorful cuisine. The other counter appears to offer a variety of options, with staff members busy preparing food.\n- **Queue Barriers**: Black stanchions with ropes are set up to manage the line of students waiting to order.\n- **Trash and Recycling Bins**: There are bins strategically placed for waste disposal, promoting cleanliness.\n\n### Environmental Features:\n- **Interior Design**: The space features a modern design with a combination of concrete pillars and wooden accents on the walls. The ceiling has a warm wood finish, adding to the inviting ambiance.\n- **Lighting**: Bright overhead lights illuminate the area, enhancing the vibrant atmosphere. The reflective floor adds to the brightness.\n- **Seating Area**: In the background, there are tables and chairs where students can sit and enjoy their meals, although they are not prominently featured in the current view.\n\n### Events/Activities:\n- **Social Interaction**: The scene captures a moment of social interaction, with students engaging in conversations while waiting for their food.\n- **Food Ordering**: The activity at the food counters indicates a busy lunchtime, with students eager to grab a bite.\n\nOverall, the video portrays a lively and engaging environment typical of a university campus, filled with students enjoying their time between classes.\n\n",
+            "answers": {
+                "position": [
+                    -183.5261898,
+                    322.93878526666674,
+                    1.1057519999999998
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_1dfb386f-cd34-43e4-ad57-cd4d0b70bcc2",
+            "length_category": "LONG",
+            "length": 938.4312188625336,
+            "start_time": 1674764790.3627234,
+            "end_time": 1674765728.7939422,
+            "file_info": {
+                "qa_start_filename": "1674764788.912567.pkl",
+                "qa_end_filename": "1674765727.442308.pkl",
+                "context_start_filename": "1674765192.956462.pkl",
+                "context_end_filename": "1674765193.058175.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:26:30. The current time is 2023-01-26 15:42:08 and you are located at [-65.89, 93.11, -0.86]. \n Where is an ATM?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:33:14, the robot was at an average position of [-185.734, 331.928, 1.208].The robot saw the following: In the video, you see a university campus environment characterized by a modern indoor space. The floor is polished and shiny, reflecting the overhead lights, which creates a bright atmosphere. \n\n1. **People**: \n   - A young woman walks towards the camera, dressed in casual attire, including a long, dark coat and light gray pants. She appears to be focused on her phone as she walks.\n   - Another individual, partially visible, walks past her, also in casual clothing, with a backpack. This person has long hair and is wearing a dark top.\n\n2. **Objects**: \n   - To the left, there is a bright red structure that resembles an information kiosk or vending machine, with illuminated signage.\n   - A metallic panel on the wall reflects light, adding to the modern aesthetic of the space.\n   - An ATM machine is positioned next to the red structure, indicating a functional area for students.\n\n3. **Environmental Features**: \n   - The walls are a mix of light and dark colors, contributing to a contemporary design.\n   - The ceiling is high, with recessed lighting that enhances the brightness of the area.\n   - There are signs indicating restroom facilities and possibly other amenities.\n\n4. **Activities**: \n   - The atmosphere suggests a busy campus life, with students moving between classes or engaging in social interactions.\n   - The presence of the ATM and information kiosk indicates that this area is likely a hub for student activity.\n\n5. **Interesting Details**: \n   - The polished floor adds a sense of cleanliness and modernity to the environment.\n   - The contrasting colors of the walls and furniture create a vibrant and inviting space for students.\n\nOverall, the scene captures a lively and functional university setting, where students navigate their daily routines amidst a contemporary architectural backdrop.\n\n",
+            "answers": {
+                "position": [
+                    -185.7339039,
+                    331.92782810000006,
+                    1.208152866666667
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_82f2e531-d605-4a72-beab-095dd4b9e08f",
+            "length_category": "LONG",
+            "length": 562.0717132091522,
+            "start_time": 1674764950.0275457,
+            "end_time": 1674765512.099259,
+            "file_info": {
+                "qa_start_filename": "1674764948.527636.pkl",
+                "qa_end_filename": "1674765510.748317.pkl",
+                "context_start_filename": "1674765241.754793.pkl",
+                "context_end_filename": "1674765241.855848.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:29:10. The current time is 2023-01-26 15:38:32 and you are located at [-72.07, 272.68, 0.25]. \n What's the name of the coffee shop?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:34:03, the robot was at an average position of [-173.492, 344.501, 1.769].The robot saw the following: In the video, you are observing a university campus environment, specifically a common area that leads to a coffee shop named \"Longhorn Coffee.\" Here\u2019s a detailed breakdown of what you might see:\n\n1. **Flooring**: The floor is polished and shiny, reflecting the overhead lights and the surroundings. It appears to be made of a smooth, possibly terrazzo material, giving it a modern and clean look.\n\n2. **Walls and Architecture**: The walls are painted in neutral tones, with one side featuring a warm orange hue. The ceiling is high and has a contemporary design, with visible structural elements that add to the modern aesthetic.\n\n3. **Lighting**: The area is well-lit with bright overhead lights, creating a welcoming atmosphere. Natural light is also streaming in through large windows, enhancing the openness of the space.\n\n4. **Coffee Shop**: The focal point is the \"Longhorn Coffee\" counter, which is prominently displayed with a large, illuminated sign. Behind the counter, you can see baristas preparing drinks and serving customers. The counter is well-organized, with various coffee-making equipment and display cases for pastries.\n\n5. **People**: There are a few individuals in the vicinity. Some may be standing in line at the coffee shop, while others might be seated at tables nearby, engaged in conversation or studying. The atmosphere suggests a mix of students and faculty, contributing to a lively campus vibe.\n\n6. **Furniture**: There are modern chairs and tables scattered around, likely designed for comfort and collaboration. Some tables may be occupied, indicating that this is a popular spot for students to gather.\n\n7. **Safety Signage**: A caution sign is visible on the floor, indicating that the area may be wet, which is common in high-traffic areas, especially near food and drink establishments.\n\n8. **Overall Ambiance**: The overall feel of the space is vibrant and energetic, typical of a university setting where students gather to socialize, study, and enjoy coffee.\n\nThis detailed observation captures the essence of the university campus environment as depicted in the video.\n\n",
+            "answers": {
+                "text": [
+                    "The name of the coffee shop is Longhorn Coffee Co"
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_9acacace-2350-4ad0-8eb1-7182a39cf6e8",
+            "length_category": "LONG",
+            "length": 564.4781520366669,
+            "start_time": 1674764898.8231895,
+            "end_time": 1674765463.3013415,
+            "file_info": {
+                "qa_start_filename": "1674764897.323164.pkl",
+                "qa_end_filename": "1674765461.952397.pkl",
+                "context_start_filename": "1674765032.835407.pkl",
+                "context_end_filename": "1674765032.935395.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:28:18. The current time is 2023-01-26 15:37:43 and you are located at [-78.04, 302.85, 0.6]. \n Where is the closest place to eat outside?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:30:34, the robot was at an average position of [-88.758, 286.315, 0.624].The robot saw the following: In the video, you are walking along a university campus pathway. Here\u2019s a detailed description of what you might see:\n\n1. **Pathway and Surroundings**:\n   - The pathway is made of concrete, wide enough for several people to walk side by side.\n   - On either side of the path, there are patches of white gravel, creating a contrast with the concrete.\n   - Tall trees line the pathway, providing shade and a pleasant green canopy overhead.\n\n2. **Lighting and Atmosphere**:\n   - The sunlight filters through the leaves, casting dappled shadows on the ground, creating a serene and inviting atmosphere.\n   - The sky appears clear, suggesting a bright and sunny day.\n\n3. **People**:\n   - You might see a few students walking, some possibly engaged in conversation or looking at their phones.\n   - A couple of individuals are seated on benches along the path, perhaps studying or enjoying the outdoors.\n   - Bicycles are parked nearby, indicating that cycling is a common mode of transport on campus.\n\n4. **Objects and Features**:\n   - A yellow emergency call box is visible on the right side of the path, indicating safety measures in place for students.\n   - There are also benches for students to sit and relax, enhancing the communal feel of the area.\n\n5. **Activities**:\n   - Some students may be seen walking with backpacks, suggesting they are heading to or from classes.\n   - The overall vibe is calm, with a mix of students moving about, creating a lively yet peaceful environment.\n\nThis scene captures the essence of university life, blending nature with academic pursuits.\n\n",
+            "answers": {
+                "position": [
+                    -88.75821986666668,
+                    286.31502129999996,
+                    0.6238858666666667
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_628ccb31-49df-457d-b43a-c247d3a9b82f",
+            "length_category": "LONG",
+            "length": 485.6381175518036,
+            "start_time": 1674765240.1556559,
+            "end_time": 1674765725.7937734,
+            "file_info": {
+                "qa_start_filename": "1674765238.658815.pkl",
+                "qa_end_filename": "1674765724.442339.pkl",
+                "context_start_filename": "1674765281.454252.pkl",
+                "context_end_filename": "1674765281.556692.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:34:00. The current time is 2023-01-26 15:42:05 and you are located at [-66.11, 95.83, -0.87]. \n Where is the nearest AED?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:34:42, the robot was at an average position of [-140.266, 348.656, 1.107].The robot saw the following: In the video, you see a university campus hallway bustling with activity. \n\n1. **People**: \n   - A young woman with long hair walks past, wearing a gray hoodie and ripped jeans. She appears focused, possibly heading to class.\n   - Another woman, dressed in a brown jacket and light pants, is seen walking in the opposite direction, looking at her phone.\n   - In the background, a small group of students is gathered, chatting and moving towards the exit.\n\n2. **Objects**: \n   - There are several chairs and tables along the sides of the hallway, where students are seated, some engaged in conversation or studying.\n   - A backpack is casually placed on the floor next to one of the chairs.\n   - A few potted plants add a touch of greenery to the otherwise modern and sleek environment.\n\n3. **Environmental Features**: \n   - The hallway has a polished, shiny floor that reflects the overhead lights, creating a bright atmosphere.\n   - The ceiling features a warm wood paneling, contrasting with the neutral-colored walls.\n   - Large windows at the end of the hallway allow natural light to flood in, enhancing the open feel of the space.\n\n4. **Activities/Events**: \n   - The overall vibe is lively, with students moving quickly, suggesting a busy time between classes.\n   - Some students are engaged in quiet conversations, while others are preoccupied with their phones or laptops.\n\n5. **Interesting Details**: \n   - The signage on the walls indicates restrooms and other facilities, showing that this is a well-utilized area of the campus.\n   - The presence of a fire extinguisher on the wall indicates safety measures in place.\n\nOverall, the scene captures the dynamic and vibrant atmosphere of university life, with students navigating their day in a modern educational environment.\n\n",
+            "answers": {
+                "position": [
+                    -140.26599753333332,
+                    348.65564770000015,
+                    1.1073881333333337
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_7eb863ca-4343-4181-8a96-a28bb5bb792c",
+            "length_category": "LONG",
+            "length": 1139.8453664779663,
+            "start_time": 1674764625.3467314,
+            "end_time": 1674765765.192098,
+            "file_info": {
+                "qa_start_filename": "1674764623.896584.pkl",
+                "qa_end_filename": "1674765763.840913.pkl",
+                "context_start_filename": "1674764698.90429.pkl",
+                "context_end_filename": "1674764699.004259.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:23:45. The current time is 2023-01-26 15:42:45 and you are located at [-66.2, 72.45, -0.88]. \n Did you see anyone riding an electric scooter?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:25:00, the robot was at an average position of [-64.142, 80.438, -0.766].The robot saw the following: In the video, you are walking through a university campus, showcasing a vibrant and lively atmosphere. \n\n1. **People**: \n   - A diverse group of students is seen walking along the pathway. Some are engaged in conversations, while others are focused on their phones or carrying backpacks.\n   - A person on a scooter glides past, adding a dynamic element to the scene.\n   - There are clusters of students, suggesting social interactions, possibly discussing classes or projects.\n\n2. **Objects**: \n   - The pathway is made of patterned bricks, creating a visually appealing surface.\n   - There are benches and bike racks visible, indicating areas for rest and transportation.\n   - Flags or banners hang from poles, with one prominently displaying \"TEXAS,\" suggesting the university's identity.\n\n3. **Environmental Features**: \n   - The campus is lined with large, leafy trees providing shade, enhancing the pleasant atmosphere.\n   - The sunlight filters through the branches, casting dappled shadows on the ground.\n   - Nearby, there are manicured bushes, adding greenery to the landscape.\n\n4. **Events/Activities**: \n   - The scene suggests a typical day on campus, with students moving between classes.\n   - The overall vibe is energetic, with a sense of community and academic life.\n\n5. **Interesting Details**: \n   - The architecture of the buildings in the background appears historic, contributing to the campus's character.\n   - The presence of bicycles indicates a culture of eco-friendly transportation among students.\n\nOverall, the video captures a snapshot of university life, filled with movement, interaction, and a vibrant environment.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_7c5b8ad3-242a-4a35-abb9-eca2fd2c2402",
+            "length_category": "LONG",
+            "length": 835.3517951965332,
+            "start_time": 1674764652.3491118,
+            "end_time": 1674765487.700907,
+            "file_info": {
+                "qa_start_filename": "1674764650.898968.pkl",
+                "qa_end_filename": "1674765486.349552.pkl",
+                "context_start_filename": "1674764972.629773.pkl",
+                "context_end_filename": "1674764972.729781.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:24:12. The current time is 2023-01-26 15:38:07 and you are located at [-78.73, 281.17, 0.31]. \n What was the color of the food truck?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:29:34, the robot was at an average position of [-74.676, 261.028, 0.179].The robot saw the following: In the video, you see a university campus bustling with activity. The ground is paved with a distinctive herringbone pattern, creating a visually appealing walkway. \n\n### People:\n- **Students**: A diverse group of students walks along the path, some in casual attire, while others carry backpacks. They appear engaged in conversation or focused on their phones.\n- **Groups**: Small clusters of students can be seen chatting, suggesting a social atmosphere.\n- **Movement**: Some individuals are walking briskly, likely heading to classes, while others stroll leisurely.\n\n### Objects:\n- **Vehicles**: A white minivan is parked on the side of the road, indicating that the area is accessible by car.\n- **Food Truck**: A brightly colored food truck is visible, likely serving snacks or meals to students, adding to the lively environment.\n- **Signage**: There are signs indicating campus events or directions, contributing to the navigational aspects of the campus.\n\n### Environmental Features:\n- **Trees**: Large, leafy trees provide shade along the walkway, enhancing the natural beauty of the campus.\n- **Lighting**: The sunlight filters through the trees, casting dappled shadows on the ground, creating a warm and inviting atmosphere.\n\n### Events/Activities:\n- **Social Interaction**: The scene captures a vibrant social life, with students interacting, suggesting a sense of community.\n- **Casual Gatherings**: The presence of the food truck hints at informal gatherings or events happening nearby.\n\n### Interesting Details:\n- **Seasonal Atmosphere**: The bright sunlight and clear sky suggest a pleasant day, ideal for outdoor activities.\n- **Campus Layout**: The wide walkway and open space indicate a well-planned campus designed for student movement and interaction.\n\nOverall, the video portrays a lively university environment filled with students, social interactions, and a welcoming atmosphere.\n\n",
+            "answers": {
+                "text": [
+                    "The food truck was yellow"
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_258dba25-f218-436e-ab68-c742babc97ef",
+            "length_category": "LONG",
+            "length": 574.9673857688904,
+            "start_time": 1674764986.0807827,
+            "end_time": 1674765561.0481684,
+            "file_info": {
+                "qa_start_filename": "1674764984.630718.pkl",
+                "qa_end_filename": "1674765559.647434.pkl",
+                "context_start_filename": "1674765114.245255.pkl",
+                "context_end_filename": "1674765114.345343.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:29:46. The current time is 2023-01-26 15:39:21 and you are located at [-78.13, 230.14, -0.16]. \n Did you see any bike racks?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:31:55, the robot was at an average position of [-158.611, 293.342, 0.555].The robot saw the following: In the video, you see a university campus pathway made of brick pavers, leading towards a building in the background. \n\n1. **Pathway**: The ground is covered in neatly arranged brick pavers, creating a warm, inviting walkway. The bricks are a mix of earthy tones, contributing to a natural ambiance.\n\n2. **Surrounding Environment**: On either side of the pathway, there are large trees providing shade, their leaves a vibrant green, indicating a pleasant season. The sunlight filters through the branches, casting dappled shadows on the ground.\n\n3. **Buildings**: To the right, there\u2019s a modern building with large glass windows reflecting the sunlight. The architecture appears contemporary, contrasting with the more traditional brick structure nearby.\n\n4. **Bicycles and Scooters**: On the right side of the path, several bicycles are parked against a bike rack. There\u2019s also a scooter, suggesting a lively campus where students use various modes of transportation.\n\n5. **People**: In the background, you can see a few people sitting on benches or tables, likely engaged in conversation or studying. A person is walking down the path, adding a sense of movement to the scene.\n\n6. **Activities**: The atmosphere feels relaxed and social, typical of a university setting, where students gather to study or socialize in the open air.\n\nOverall, the scene captures a vibrant, active campus environment filled with greenery, modern architecture, and student life.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_LONG_fc569d7c-6544-4dc1-9591-baee636e5cb2",
+            "length_category": "LONG",
+            "length": 499.6824252605438,
+            "start_time": 1674764865.6692488,
+            "end_time": 1674765365.351674,
+            "file_info": {
+                "qa_start_filename": "1674764864.219096.pkl",
+                "qa_end_filename": "1674765363.954635.pkl",
+                "context_start_filename": "1674765424.850507.pkl",
+                "context_end_filename": "1674765424.950378.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:27:45. The current time is 2023-01-26 15:36:05 and you are located at [-86.07, 363.27, 0.8]. \n Where did you see a crowd of people standing?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:37:06, the robot was at an average position of [-74.132, 335.359, 0.656].The robot saw the following: In the video, the scene unfolds on a university campus, showcasing a lively atmosphere. \n\n1. **Ground and Pathway**: The ground features a distinct herringbone pattern made of light-colored bricks, creating a visually appealing walkway. The path is well-maintained, indicating regular use.\n\n2. **People**: \n   - A variety of individuals can be seen walking along the path. Many appear to be students, dressed in casual attire suitable for a cool day. \n   - One person stands out, walking briskly with a drink in hand, wearing a brown jacket and gray pants. \n   - In the background, a line of students is visible, suggesting a gathering or event, with some people chatting and others focused on their phones or conversations.\n\n3. **Environmental Features**: \n   - The campus is adorned with large, leafy trees providing shade, which adds to the pleasant ambiance. \n   - The sunlight filters through the branches, casting dappled shadows on the ground, enhancing the visual interest of the scene.\n\n4. **Activities and Events**: \n   - The line of students hints at an organized event, possibly a registration or a social gathering. \n   - A small vehicle, possibly a golf cart, is parked nearby, indicating logistical support for the event.\n\n5. **Background Elements**: \n   - The buildings in the background are typical of a university setting, with a mix of modern and traditional architecture. \n   - The overall atmosphere is vibrant and bustling, reflecting the dynamic life of a university campus.\n\nThis scene captures a moment of daily life at a university, filled with movement, interaction, and a sense of community.\n\n",
+            "answers": {
+                "position": [
+                    -74.13211946666668,
+                    335.3594660999999,
+                    0.6564575
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_adb9a59c-93f6-4171-901a-00782038ff83",
+            "length_category": "MEDIUM",
+            "length": 293.09027647972107,
+            "start_time": 1674765530.4491446,
+            "end_time": 1674765823.539421,
+            "file_info": {
+                "qa_start_filename": "1674765528.94831.pkl",
+                "qa_end_filename": "1674765822.142647.pkl",
+                "context_start_filename": "1674765791.341874.pkl",
+                "context_end_filename": "1674765791.439926.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:38:50. The current time is 2023-01-26 15:43:43 and you are located at [-43.32, 36.03, -0.94]. \n Did you pass through any bollards?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:43:12, the robot was at an average position of [-65.143, 46.468, -0.91].The robot saw the following: In the video, you are observing a university campus environment. Here\u2019s a detailed description of what you might see:\n\n1. **Ground and Pathway**: The ground is paved with a herringbone pattern, featuring light brown and beige tiles. The pathway appears well-maintained and is wide enough for pedestrian traffic.\n\n2. **Surrounding Buildings**: On either side of the pathway, there are several buildings. The architecture includes a mix of modern and traditional styles, with brick and concrete facades. The buildings are several stories tall, indicating they might house classrooms, offices, or student accommodations.\n\n3. **Environmental Features**: There are trees lining the pathway, providing shade and greenery. The trees have lush foliage, suggesting a pleasant environment. Street lamps are positioned along the path, adding to the campus's aesthetic and providing lighting.\n\n4. **People**: You can see a few individuals walking along the pathway. They appear to be students, some carrying backpacks, possibly heading to classes or socializing. Their attire varies, indicating a mix of casual and slightly formal clothing, typical for a university setting.\n\n5. **Activities**: The atmosphere seems lively, with students engaged in conversation or walking briskly. Some individuals might be riding bicycles or using skateboards, adding to the dynamic feel of the campus.\n\n6. **Traffic and Vehicles**: In the background, there are a few vehicles parked along the side of the road, suggesting that this area is accessible by car. The presence of a police vehicle indicates a focus on safety and security on campus.\n\n7. **Lighting and Weather**: The sky is clear and blue, indicating a sunny day. The sunlight casts shadows on the ground, enhancing the visual appeal of the scene.\n\n8. **Additional Details**: There are yellow bollards placed along the pathway, likely to prevent vehicle access and ensure pedestrian safety. These bollards are a mix of metal and plastic, standing out against the pavement.\n\nOverall, the scene captures a vibrant university atmosphere, combining elements of nature, architecture, and student life.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_4701bd3d-352e-40d4-94fe-3d2a18edbd23",
+            "length_category": "MEDIUM",
+            "length": 407.1683201789856,
+            "start_time": 1674765010.083223,
+            "end_time": 1674765417.2515433,
+            "file_info": {
+                "qa_start_filename": "1674765008.633163.pkl",
+                "qa_end_filename": "1674765415.850221.pkl",
+                "context_start_filename": "1674765281.454252.pkl",
+                "context_end_filename": "1674765281.556692.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:30:10. The current time is 2023-01-26 15:36:57 and you are located at [-74.2, 344.0, 0.67]. \n Can you take me to the restroom near the food court?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:34:42, the robot was at an average position of [-140.266, 348.656, 1.107].The robot saw the following: In the video, you see a university campus hallway bustling with activity. \n\n1. **People**: \n   - A young woman with long hair walks past, wearing a gray hoodie and ripped jeans. She appears focused, possibly heading to class.\n   - Another woman, dressed in a brown jacket and light pants, is seen walking in the opposite direction, looking at her phone.\n   - In the background, a small group of students is gathered, chatting and moving towards the exit.\n\n2. **Objects**: \n   - There are several chairs and tables along the sides of the hallway, where students are seated, some engaged in conversation or studying.\n   - A backpack is casually placed on the floor next to one of the chairs.\n   - A few potted plants add a touch of greenery to the otherwise modern and sleek environment.\n\n3. **Environmental Features**: \n   - The hallway has a polished, shiny floor that reflects the overhead lights, creating a bright atmosphere.\n   - The ceiling features a warm wood paneling, contrasting with the neutral-colored walls.\n   - Large windows at the end of the hallway allow natural light to flood in, enhancing the open feel of the space.\n\n4. **Activities/Events**: \n   - The overall vibe is lively, with students moving quickly, suggesting a busy time between classes.\n   - Some students are engaged in quiet conversations, while others are preoccupied with their phones or laptops.\n\n5. **Interesting Details**: \n   - The signage on the walls indicates restrooms and other facilities, showing that this is a well-utilized area of the campus.\n   - The presence of a fire extinguisher on the wall indicates safety measures in place.\n\nOverall, the scene captures the dynamic and vibrant atmosphere of university life, with students navigating their day in a modern educational environment.\n\n",
+            "answers": {
+                "position": [
+                    -140.26599753333332,
+                    348.65564770000015,
+                    1.1073881333333337
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_8ddfc026-55ad-4a28-9c1d-df9385c32b94",
+            "length_category": "MEDIUM",
+            "length": 189.5457444190979,
+            "start_time": 1674765719.6936624,
+            "end_time": 1674765909.2394068,
+            "file_info": {
+                "qa_start_filename": "1674765718.244145.pkl",
+                "qa_end_filename": "1674765907.84322.pkl",
+                "context_start_filename": "1674765898.639616.pkl",
+                "context_end_filename": "1674765898.741654.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:41:59. The current time is 2023-01-26 15:45:09 and you are located at [0.0, -0.09, -0.03]. \n Did you see a loading zone?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:45:00, the robot was at an average position of [0.397, -0.64, -0.023].The robot saw the following: The video depicts a university campus area, focusing on a loading zone. Here\u2019s a detailed breakdown of what can be observed:\n\n1. **Environment**:\n   - The setting appears to be a service area behind a building, likely used for deliveries or maintenance.\n   - The walls are made of red brick, giving a sturdy, institutional feel.\n   - The ground is concrete, showing signs of wear with visible tire tracks and some debris scattered around.\n\n2. **Signage**:\n   - Prominently displayed signs indicate \"LOADING ZONE\" and \"NO PARKING AT ALL TIMES,\" suggesting strict regulations for vehicle access.\n   - The signs are clear and well-maintained, emphasizing the importance of the area for operational purposes.\n\n3. **Structural Features**:\n   - A large, white garage door is visible, likely used for vehicle access to the loading area.\n   - There are metal railings in the foreground, possibly indicating a ramp or a barrier for safety.\n\n4. **Natural Elements**:\n   - A tree is visible in the background, indicating some greenery amidst the concrete environment. Its branches are bare, suggesting it may be early spring or late fall.\n   - The sunlight casts shadows, creating a play of light and shade on the surfaces.\n\n5. **Buildings**:\n   - The buildings surrounding the area have multiple windows, some of which are open, hinting at activity inside.\n   - The architecture appears functional, typical of university facilities, with a mix of older and more modern designs.\n\n6. **Overall Atmosphere**:\n   - The area feels quiet and somewhat utilitarian, with no people visible in the immediate vicinity.\n   - The absence of activity suggests it might be a time when classes are not in session or during a break.\n\nThis detailed observation highlights the functional aspects of the campus environment, focusing on the loading zone and its surroundings.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_abc888ec-e5a1-4ba9-8612-cc4fec8549f2",
+            "length_category": "MEDIUM",
+            "length": 238.3446261882782,
+            "start_time": 1674765343.9531279,
+            "end_time": 1674765582.297754,
+            "file_info": {
+                "qa_start_filename": "1674765342.451716.pkl",
+                "qa_end_filename": "1674765580.948254.pkl",
+                "context_start_filename": "1674765437.15104.pkl",
+                "context_end_filename": "1674765437.253608.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:35:43. The current time is 2023-01-26 15:39:42 and you are located at [-77.28, 209.9, -0.37]. \n Where did you see orange cones?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:37:18, the robot was at an average position of [-74.555, 323.856, 0.655].The robot saw the following: In the video, you see a university campus bustling with activity. The pathway is made of herringbone-patterned bricks, creating a visually appealing surface. \n\n### People:\n- **Students Walking**: Groups of students are walking along the path. Some are in casual attire, like hoodies and jeans, while others wear backpacks, indicating they might be heading to or from classes.\n- **Diverse Group**: The students appear to be a mix of genders and ethnicities, contributing to a vibrant campus atmosphere.\n\n### Objects:\n- **Utility Vehicle**: On the left side, there\u2019s a small utility vehicle, possibly used for campus maintenance, with a bright orange triangle on the back for visibility.\n- **Traffic Cones**: Bright orange cones line the pathway, likely marking off areas for safety or construction, guiding foot traffic.\n\n### Environmental Features:\n- **Trees**: Large trees with lush green leaves provide shade along the path, creating a pleasant environment. The sunlight filters through the leaves, casting dappled shadows on the ground.\n- **Buildings**: In the background, you can see a building with a classic architectural style, suggesting a historic or well-established university.\n\n### Activities:\n- **Casual Conversations**: Some students appear to be chatting as they walk, creating a lively atmosphere.\n- **Movement**: The scene conveys a sense of movement, with students coming and going, contributing to the dynamic feel of campus life.\n\n### Additional Details:\n- **Clear Blue Sky**: The weather looks pleasant, with a clear blue sky, enhancing the overall ambiance of the campus.\n- **Sound**: While not visible, one can imagine the sounds of footsteps, laughter, and casual conversations filling the air, adding to the vibrant campus life.\n\nOverall, the video captures a lively moment on a university campus, showcasing the interactions and environment that define student life.\n\n",
+            "answers": {
+                "position": [
+                    -74.55478741935485,
+                    323.85622419354837,
+                    0.6552014838709678
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_b4e59b77-8e44-4f48-ab04-a3d4fc653a6c",
+            "length_category": "MEDIUM",
+            "length": 176.89422035217285,
+            "start_time": 1674765646.6452007,
+            "end_time": 1674765823.539421,
+            "file_info": {
+                "qa_start_filename": "1674765645.145885.pkl",
+                "qa_end_filename": "1674765822.142647.pkl",
+                "context_start_filename": "1674765739.443656.pkl",
+                "context_end_filename": "1674765739.54521.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:40:46. The current time is 2023-01-26 15:43:43 and you are located at [-43.32, 36.03, -0.94]. \n Did you see a Stop sign?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:42:20, the robot was at an average position of [-64.13, 84.07, -0.824].The robot saw the following: In the video, you are navigating a university campus, and here are the detailed observations:\n\n1. **Environment**: The setting is a well-maintained university campus with a mix of modern and traditional architecture. The buildings are primarily made of brick and glass, indicating a blend of old and new styles.\n\n2. **Pathway and Surroundings**: The pathway is wide and paved, bordered by neatly trimmed bushes and trees. The ground features a combination of concrete and patterned brick, creating an inviting atmosphere for pedestrians.\n\n3. **Lighting and Shadows**: The sunlight filters through the trees, casting dappled shadows on the ground. This creates a pleasant, warm ambiance, suggesting a clear day.\n\n4. **People**: There are several individuals walking along the path. Some are engaged in conversations, while others appear to be heading to classes or meetings. A few people are riding bicycles, indicating a vibrant campus life.\n\n5. **Objects**: Street lamps line the walkway, providing illumination. There are also stop signs and other traffic indicators, suggesting that the area accommodates both pedestrians and vehicles.\n\n6. **Activities**: The atmosphere is lively, with students and faculty moving about. Some individuals are sitting on benches or near the bushes, possibly studying or enjoying the outdoors.\n\n7. **Bicycles**: There are bicycles parked along the side, indicating a popular mode of transportation among students.\n\n8. **Landscaping**: The landscaping is well-kept, with a variety of plants and trees that add to the aesthetic appeal of the campus.\n\nOverall, the scene captures a dynamic and engaging university environment, showcasing both the architectural beauty and the active life of the campus community.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_a60e24ac-50b6-49e7-8c68-abfd677d4ea5",
+            "length_category": "MEDIUM",
+            "length": 311.19034719467163,
+            "start_time": 1674765484.700906,
+            "end_time": 1674765795.8912532,
+            "file_info": {
+                "qa_start_filename": "1674765483.249286.pkl",
+                "qa_end_filename": "1674765794.540317.pkl",
+                "context_start_filename": "1674765480.153809.pkl",
+                "context_end_filename": "1674765480.249872.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:38:04. The current time is 2023-01-26 15:43:15 and you are located at [-65.05, 43.58, -0.91]. \n What does the food truck sell?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:38:01, the robot was at an average position of [-80.207, 286.473, 0.426].The robot saw the following: In the video, you see a university campus bustling with activity. The scene is set on a wide, paved walkway made of herringbone-patterned bricks, which adds a distinctive aesthetic to the environment. \n\n### People:\n- **Pedestrians**: A variety of people are walking along the path. Some are dressed casually, while others might be in more formal attire, suggesting a mix of students and faculty. \n- **Movement**: Individuals are moving in different directions, creating a lively atmosphere. A person in a white shirt stands out against the backdrop, while another in a plaid shirt walks nearby.\n\n### Objects:\n- **Food Truck**: On the right side, there\u2019s a colorful food truck labeled \"Wetzel's Pretzels,\" indicating a popular snack option for students. The truck is vibrant, with bright colors that catch the eye.\n- **Vehicles**: A few cars are parked along the side of the walkway, suggesting that the area is accessible by vehicle, though the focus remains on pedestrian traffic.\n\n### Environmental Features:\n- **Trees**: Large trees line the walkway, providing shade and a natural feel to the campus. Their leaves are lush and green, contributing to a pleasant atmosphere.\n- **Buildings**: In the background, you can see university buildings, which appear to be well-maintained and possibly historic, adding character to the campus.\n\n### Activities:\n- **Social Interaction**: Some individuals appear to be engaged in conversations, while others are focused on their phones or walking alone, indicating a mix of social and solitary activities.\n- **General Ambiance**: The overall vibe is energetic and inviting, typical of a university setting during a busy day.\n\n### Additional Details:\n- **Lighting**: The sunlight casts distinct shadows on the ground, enhancing the texture of the brick pathway and creating a warm, inviting atmosphere.\n- **Banners**: There are banners hanging along the walkway, possibly promoting events or student organizations, adding to the campus's vibrant culture.\n\nOverall, the scene captures the essence of university life, filled with movement, interaction, and a blend of nature and architecture.\n\n",
+            "answers": {
+                "text": [
+                    "The food truck sells pretzels"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_7a9d7a3c-6730-42dd-a834-91e3eb684fc6",
+            "length_category": "MEDIUM",
+            "length": 326.892076253891,
+            "start_time": 1674765576.2977211,
+            "end_time": 1674765903.1897974,
+            "file_info": {
+                "qa_start_filename": "1674765574.846729.pkl",
+                "qa_end_filename": "1674765901.839252.pkl",
+                "context_start_filename": "1674765730.342429.pkl",
+                "context_end_filename": "1674765730.444224.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:39:36. The current time is 2023-01-26 15:45:03 and you are located at [-0.42, -0.4, -0.03]. \n Is it safe to walk outside?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:42:11, the robot was at an average position of [-65.64, 90.339, -0.853].The robot saw the following: In the video, you see a university campus bustling with activity. The ground is paved with a distinctive herringbone pattern, creating a visually appealing walkway. \n\n### People:\n- **Students**: Several individuals are walking along the path, some in casual attire, suggesting they might be heading to classes or socializing. A few are carrying backpacks, indicating they are likely students.\n- **Groups**: There are small clusters of people chatting, creating a lively atmosphere. \n\n### Objects:\n- **Sculpture**: A striking metallic sculpture dominates the scene, suspended above the walkway. Its abstract design features sharp angles and reflective surfaces, catching the sunlight and drawing attention.\n- **Streetlamps**: Tall streetlamps line the pathway, providing illumination and enhancing the campus's aesthetic.\n\n### Environmental Features:\n- **Trees**: Lush greenery flanks the walkway, with trees providing shade and a natural feel to the urban environment. Some trees have vibrant leaves, indicating a pleasant season.\n- **Buildings**: Modern architecture is visible in the background, with large windows and a mix of materials, contributing to the campus's contemporary vibe.\n\n### Activities:\n- **Walking**: The primary activity is students walking, some appearing to be in conversation while others are focused on their phones or books.\n- **Social Interaction**: The atmosphere feels energetic, with laughter and chatter in the air, suggesting a vibrant campus life.\n\n### Additional Details:\n- **Lighting**: The sunlight casts shadows on the ground, adding depth to the scene.\n- **Background Sounds**: While not visible, one can imagine the sounds of footsteps, conversations, and perhaps distant laughter, enhancing the lively campus environment.\n\nOverall, the video captures a dynamic and engaging university setting, filled with students and interesting architectural elements.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_eed3c4de-9597-49af-951b-b2588dbf7c4c",
+            "length_category": "MEDIUM",
+            "length": 140.99747776985168,
+            "start_time": 1674765768.241929,
+            "end_time": 1674765909.2394068,
+            "file_info": {
+                "qa_start_filename": "1674765766.744518.pkl",
+                "qa_end_filename": "1674765907.84322.pkl",
+                "context_start_filename": "1674765803.640113.pkl",
+                "context_end_filename": "1674765803.74009.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:42:48. The current time is 2023-01-26 15:45:09 and you are located at [0.0, -0.09, -0.03]. \n Did you see an elevated pedestrian bridge?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:43:25, the robot was at an average position of [-60.306, 37.719, -0.93].The robot saw the following: In the video, the scene unfolds on a university campus, showcasing a blend of architectural features and student activity. \n\n1. **Buildings**: The prominent structure is a large, modern building with a mix of stone and glass. It has multiple windows, some of which are open, suggesting a lively atmosphere inside. An elevated walkway connects this building to another structure, indicating a well-planned campus layout.\n\n2. **Ground Area**: The ground is made of smooth concrete, appearing clean and well-maintained. Sunlight filters through the trees, casting dappled shadows on the surface, creating a visually appealing contrast.\n\n3. **People**: Several individuals are visible, including students walking in different directions. Some appear to be engaged in conversation, while others are focused on their phones or carrying backpacks. A few bicycles are parked along the edge, indicating a bike-friendly environment.\n\n4. **Environmental Features**: To the right, there are neatly trimmed bushes and trees, adding greenery to the urban setting. The presence of benches along the side suggests areas for relaxation or study.\n\n5. **Activities**: The atmosphere seems vibrant, with students moving between classes or socializing. The overall vibe is one of a bustling academic community, with a mix of focused individuals and casual interactions.\n\n6. **Additional Details**: There are signs and possibly a fire hydrant visible, hinting at safety measures in place. The architecture reflects a contemporary style, contributing to the modern aesthetic of the campus.\n\nOverall, the scene captures a dynamic university environment, blending architectural beauty with student life.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_a76280fa-7bd6-42d8-b16f-01d457362826",
+            "length_category": "MEDIUM",
+            "length": 121.74655151367188,
+            "start_time": 1674765634.3457134,
+            "end_time": 1674765756.092265,
+            "file_info": {
+                "qa_start_filename": "1674765632.845115.pkl",
+                "qa_end_filename": "1674765754.741445.pkl",
+                "context_start_filename": "1674765733.34653.pkl",
+                "context_end_filename": "1674765733.442724.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:40:34. The current time is 2023-01-26 15:42:36 and you are located at [-65.64, 80.65, -0.86]. \n Did you see any traffic lights?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:42:14, the robot was at an average position of [-65.416, 87.539, -0.844].The robot saw the following: In the video, you see a university campus bustling with activity. The ground is paved with a distinctive herringbone pattern, creating a visually appealing walkway. \n\n### People:\n- Several individuals are walking along the path. They appear to be students, some carrying backpacks, suggesting they are on their way to classes or studying.\n- A few people are dressed casually, wearing hoodies and jeans, while others are in shorts, indicating a comfortable climate.\n- The pedestrians seem engaged in conversation or focused on their phones, contributing to a lively atmosphere.\n\n### Objects:\n- Prominently featured is a large, abstract sculpture made of metallic materials, which towers above the walkway. Its design is dynamic, with sharp angles and curves, drawing attention and serving as a focal point of the campus.\n- Surrounding the sculpture are patches of greenery, including small trees and shrubs, which add a touch of nature to the urban setting.\n\n### Environmental Features:\n- The sky is clear and bright, suggesting a sunny day, which enhances the overall vibrancy of the scene.\n- The buildings in the background are modern, with a mix of glass and concrete, indicating a contemporary architectural style.\n\n### Activities:\n- The atmosphere is energetic, with students moving purposefully, suggesting a busy day on campus.\n- Some individuals appear to be in groups, possibly discussing classwork or socializing, while others walk alone, immersed in their thoughts.\n\n### Interesting Details:\n- The play of light and shadow on the ground creates a dynamic visual effect, enhancing the texture of the herringbone pavement.\n- The contrast between the natural elements and the modern architecture highlights the blend of nature and urban life typical of university campuses.\n\nOverall, the scene captures a vibrant and engaging university environment, filled with movement and interaction.\n\n",
+            "answers": {
+                "text": [
+                    "no",
+                    "no"
+                ]
+            }
+        },
+        {
+            "id": "6_MEDIUM_d27a4b07-7b8e-4591-87b5-d732d57e695d",
+            "length_category": "MEDIUM",
+            "length": 195.26968240737915,
+            "start_time": 1674764643.3482597,
+            "end_time": 1674764838.617942,
+            "file_info": {
+                "qa_start_filename": "1674764641.898141.pkl",
+                "qa_end_filename": "1674764837.217835.pkl",
+                "context_start_filename": "1674764695.903975.pkl",
+                "context_end_filename": "1674764696.003983.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:24:03. The current time is 2023-01-26 15:27:18 and you are located at [-71.98, 183.75, -0.57]. \n When did you reach the tree-lined path?",
+            "type": "time",
+            "context": "At time=2023-01-26 15:24:57, the robot was at an average position of [-64.235, 77.781, -0.782].The robot saw the following: In the video, you see a vibrant university campus scene filled with activity and interesting details. \n\n1. **Pathway**: The ground is paved with a distinctive herringbone pattern, featuring alternating shades of yellow and brown. This design adds a unique aesthetic to the walkway.\n\n2. **Trees**: Lining both sides of the path are large, leafy trees that provide ample shade. Their branches create a natural canopy overhead, filtering sunlight and casting dappled shadows on the ground.\n\n3. **People**: A diverse group of individuals is seen walking along the path. Some are casually dressed, while others may be wearing backpacks, suggesting they are students. They appear engaged in conversation or focused on their phones.\n\n4. **Activities**: A few people are riding bicycles or scooters, adding to the dynamic atmosphere. One individual is prominently seen on a scooter, waiting at the edge of the path, possibly deciding where to go next.\n\n5. **Environmental Features**: On the right side, there\u2019s a small landscaped area with neatly trimmed bushes, enhancing the campus's greenery. Street lamps are positioned along the path, indicating that this area is well-lit for evening use.\n\n6. **Buildings**: In the background, you can see the architecture of university buildings, which appear to be older and possibly historic, contributing to the campus's character.\n\n7. **Banners**: Bright orange banners hang from the trees, likely displaying the university's name or emblem, adding a splash of color and school spirit to the scene.\n\nOverall, the video captures a lively and inviting atmosphere, showcasing the blend of nature and academia on the university campus.\n\n",
+            "answers": {
+                "text": [
+                    "2.35 minutes ago"
+                ],
+                "time": 2.35
+            }
+        },
+        {
+            "id": "6_SHORT_0a24625a-bc44-4bab-8cc7-5e5fc31eb0b0",
+            "length_category": "SHORT",
+            "length": 42.74834179878235,
+            "start_time": 1674765475.4514742,
+            "end_time": 1674765518.199816,
+            "file_info": {
+                "qa_start_filename": "1674765473.954818.pkl",
+                "qa_end_filename": "1674765516.851851.pkl",
+                "context_start_filename": "1674765473.954818.pkl",
+                "context_end_filename": "1674765474.050819.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:37:55. The current time is 2023-01-26 15:38:38 and you are located at [-74.24, 269.84, 0.2]. \n What was the color of the semi truck",
+            "type": "text",
+            "context": "At time=2023-01-26 15:37:55, the robot was at an average position of [-80.351, 292.285, 0.501].The robot saw the following: In the video, you see a bustling university campus scene. The ground is paved with a distinctive herringbone pattern, creating a visually appealing walkway. \n\n1. **Vehicles**: A large yellow Penske moving truck is parked prominently on the left side, indicating some sort of activity or event. Nearby, there's a colorful food truck, adorned with bright graphics, suggesting that food might be available for students and passersby.\n\n2. **People**: Several individuals are walking along the path. Some are dressed casually, likely students, with backpacks slung over their shoulders. A few are wearing jackets, indicating a cooler day. One person stands out in a plaid shirt, while others are in more neutral tones. Their movements suggest a mix of purpose and leisure, typical of a campus environment.\n\n3. **Environment**: The area is shaded by large trees, providing a pleasant atmosphere. The sunlight filters through the leaves, casting dappled shadows on the ground. In the background, you can see buildings that appear to be part of the university, adding to the academic ambiance.\n\n4. **Activities**: The presence of the food truck hints at a possible event or gathering, where students might be socializing or taking a break from classes. The overall vibe is lively, with a sense of community and engagement.\n\n5. **Details**: The combination of the truck, food vendor, and students creates a dynamic scene, showcasing the everyday life of a university campus. The well-maintained pathways and greenery contribute to an inviting atmosphere, encouraging interaction among students. \n\nOverall, the video captures a vibrant snapshot of campus life, blending transportation, social interaction, and the natural environment.\n\n",
+            "answers": {
+                "text": [
+                    "yellow"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_116cb2c2-8a03-4491-abe1-31b3c9b809bd",
+            "length_category": "SHORT",
+            "length": 46.05027770996094,
+            "start_time": 1674765854.0894122,
+            "end_time": 1674765900.13969,
+            "file_info": {
+                "qa_start_filename": "1674765852.639878.pkl",
+                "qa_end_filename": "1674765898.741654.pkl",
+                "context_start_filename": "1674765864.8375.pkl",
+                "context_end_filename": "1674765864.937671.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:44:14. The current time is 2023-01-26 15:45:00 and you are located at [0.4, -0.64, -0.02]. \n Did you see a building with large windows?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:44:26, the robot was at an average position of [-5.729, 28.634, -0.615].The robot saw the following: In the video, you see a university campus setting with a focus on a paved area. Here\u2019s a detailed breakdown of what\u2019s visible:\n\n1. **People**: \n   - Two individuals are walking in the foreground. One is dressed in a gray shirt and dark pants, holding something in their left hand, possibly a phone or a piece of paper. They appear to be engaged in a conversation, likely on the phone.\n   - The second person, slightly behind, is wearing a dark jacket and has a backpack. They are walking in the opposite direction, suggesting a casual pace.\n   - In the background, more people can be seen walking, indicating a lively campus atmosphere.\n\n2. **Objects**:\n   - The person in the foreground is holding what looks like a stack of papers or a notebook.\n   - There\u2019s a green container or storage unit in the background, possibly for maintenance or construction purposes.\n   - A manhole cover is visible on the ground, indicating utility access.\n\n3. **Environmental Features**:\n   - The pavement is smooth and appears to be well-maintained, with a slight incline leading towards a building.\n   - The building in the background has large windows and a brick facade, giving it a classic architectural style.\n   - There are light poles along the pathway, suggesting that the area is well-lit, even during the evening.\n\n4. **Events/Activities**:\n   - The individuals seem to be going about their daily routines, possibly heading to classes or meetings.\n   - The overall atmosphere is casual, with people moving at a leisurely pace, indicative of a university environment.\n\n5. **Interesting Details**:\n   - The sunlight casts shadows on the ground, creating a warm ambiance.\n   - The presence of greenery in the background suggests that there may be trees or plants nearby, contributing to a pleasant outdoor environment.\n\nOverall, the scene captures a typical day on a university campus, highlighting the interactions of students and the architectural features of the surroundings.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_4b6d1d26-871c-43ee-9e86-98d1cf75a132",
+            "length_category": "SHORT",
+            "length": 73.2979588508606,
+            "start_time": 1674765316.4031403,
+            "end_time": 1674765389.7010992,
+            "file_info": {
+                "qa_start_filename": "1674765314.951994.pkl",
+                "qa_end_filename": "1674765388.352326.pkl",
+                "context_start_filename": "1674765314.951994.pkl",
+                "context_end_filename": "1674765315.054173.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:35:16. The current time is 2023-01-26 15:36:29 and you are located at [-72.8, 363.91, 0.7]. \n What was the color of shoes of the person who opened the door for you?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:35:16, the robot was at an average position of [-124.066, 355.203, 0.916].The robot saw the following: In the video, you see a university campus setting with a focus on a person exiting through a set of automatic doors. Here\u2019s a detailed breakdown of the scene:\n\n1. **Person**: A young man is prominently featured. He is wearing a dark jacket with a hood, light-colored pants, and white sneakers. He carries a folder or a stack of papers in one hand and appears to be stepping out of the building with a purposeful stride.\n\n2. **Doors**: The automatic doors are glass, allowing a clear view of the outside. They have caution signs indicating they are automatic, which adds a layer of safety awareness to the environment.\n\n3. **Environment**: \n   - **Lighting**: The scene is well-lit, suggesting it\u2019s daytime. Sunlight casts shadows on the ground, creating a dynamic interplay of light and shade.\n   - **Surroundings**: Outside the doors, there are trees providing shade, and you can see some outdoor furniture, likely for students to sit and study or socialize. \n\n4. **Activities**: In the background, there\u2019s another person seated at a table, possibly engaged in their own activities, such as studying or chatting.\n\n5. **Movement**: The young man is in motion, stepping out confidently, which adds a sense of liveliness to the scene. His body language suggests he is either heading to a class or meeting someone.\n\n6. **Details**: The texture of the ground is visible, indicating a smooth surface, likely designed for easy navigation. The overall atmosphere feels vibrant and academic, typical of a university setting.\n\nThis scene captures a moment of daily life on campus, highlighting the interactions and environment that characterize university experiences.\n\n",
+            "answers": {
+                "text": [
+                    "The person who opened the door for me was wearing white shoes"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_136fb34b-f179-47ec-98ba-16fe18a7f7f3",
+            "length_category": "SHORT",
+            "length": 67.39705514907837,
+            "start_time": 1674765771.3421125,
+            "end_time": 1674765838.7391677,
+            "file_info": {
+                "qa_start_filename": "1674765769.845402.pkl",
+                "qa_end_filename": "1674765837.338197.pkl",
+                "context_start_filename": "1674765794.440094.pkl",
+                "context_end_filename": "1674765794.540317.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:42:51. The current time is 2023-01-26 15:43:58 and you are located at [-29.0, 36.06, -0.96]. \n When did you pass through the yellow bollards?",
+            "type": "time",
+            "context": "At time=2023-01-26 15:43:15, the robot was at an average position of [-65.045, 43.584, -0.905].The robot saw the following: In the video, the scene unfolds on a university campus, showcasing a wide, paved pathway with a distinctive herringbone pattern. \n\n1. **Pathway and Surroundings**: The ground is made of light-colored bricks arranged in a herringbone design, creating a visually appealing texture. On either side of the pathway, there are trees providing shade, contributing to a pleasant outdoor atmosphere.\n\n2. **Bollards**: Prominently featured are two metallic bollards with yellow accents, positioned at the edge of the pathway. These bollards likely serve as barriers to control vehicle access, adding a functional element to the scene.\n\n3. **Buildings**: In the background, several buildings are visible. One is a tall, multi-story structure, possibly a dormitory or academic building, with a modern design. The other building appears older, with a more traditional architectural style, suggesting a blend of historical and contemporary elements on campus.\n\n4. **Lighting**: Street lamps line the pathway, indicating that the area is well-lit, enhancing safety and visibility during evening hours.\n\n5. **People**: A few individuals can be seen walking along the pathway, engaged in various activities. Some appear to be students, possibly heading to classes or socializing. Their casual attire suggests a relaxed campus vibe.\n\n6. **Vehicles**: A parked vehicle is visible on the side of the road, indicating that the area accommodates both pedestrian and vehicular traffic.\n\n7. **Sky and Weather**: The sky is clear and blue, suggesting a bright, sunny day, which adds to the overall inviting atmosphere of the campus.\n\nOverall, the scene captures a vibrant university environment, blending natural elements with functional design and active student life.\n\n",
+            "answers": {
+                "text": [
+                    "0.71 minutes ago"
+                ],
+                "time": 0.71
+            }
+        },
+        {
+            "id": "6_SHORT_aae33b1e-1d56-4e1a-a067-69b5ac3ec84a",
+            "length_category": "SHORT",
+            "length": 49.14669680595398,
+            "start_time": 1674765777.4424474,
+            "end_time": 1674765826.5891442,
+            "file_info": {
+                "qa_start_filename": "1674765775.945565.pkl",
+                "qa_end_filename": "1674765825.23802.pkl",
+                "context_start_filename": "1674765794.440094.pkl",
+                "context_end_filename": "1674765794.540317.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:42:57. The current time is 2023-01-26 15:43:46 and you are located at [-40.41, 36.0, -0.91]. \n Did you see any vehicles?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:43:15, the robot was at an average position of [-65.045, 43.584, -0.905].The robot saw the following: In the video, the scene unfolds on a university campus, showcasing a wide, paved pathway with a distinctive herringbone pattern. \n\n1. **Pathway and Surroundings**: The ground is made of light-colored bricks arranged in a herringbone design, creating a visually appealing texture. On either side of the pathway, there are trees providing shade, contributing to a pleasant outdoor atmosphere.\n\n2. **Bollards**: Prominently featured are two metallic bollards with yellow accents, positioned at the edge of the pathway. These bollards likely serve as barriers to control vehicle access, adding a functional element to the scene.\n\n3. **Buildings**: In the background, several buildings are visible. One is a tall, multi-story structure, possibly a dormitory or academic building, with a modern design. The other building appears older, with a more traditional architectural style, suggesting a blend of historical and contemporary elements on campus.\n\n4. **Lighting**: Street lamps line the pathway, indicating that the area is well-lit, enhancing safety and visibility during evening hours.\n\n5. **People**: A few individuals can be seen walking along the pathway, engaged in various activities. Some appear to be students, possibly heading to classes or socializing. Their casual attire suggests a relaxed campus vibe.\n\n6. **Vehicles**: A parked vehicle is visible on the side of the road, indicating that the area accommodates both pedestrian and vehicular traffic.\n\n7. **Sky and Weather**: The sky is clear and blue, suggesting a bright, sunny day, which adds to the overall inviting atmosphere of the campus.\n\nOverall, the scene captures a vibrant university environment, blending natural elements with functional design and active student life.\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_2732dae9-2d64-4bc1-b36e-1adf39854dc3",
+            "length_category": "SHORT",
+            "length": 64.19694375991821,
+            "start_time": 1674765203.5071294,
+            "end_time": 1674765267.7040732,
+            "file_info": {
+                "qa_start_filename": "1674765202.056062.pkl",
+                "qa_end_filename": "1674765266.35467.pkl",
+                "context_start_filename": "1674765198.961234.pkl",
+                "context_end_filename": "1674765199.056968.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:33:23. The current time is 2023-01-26 15:34:27 and you are located at [-154.53, 348.94, 1.41]. \n Where is the fire extinguisher?",
+            "type": "position",
+            "context": "At time=2023-01-26 15:33:20, the robot was at an average position of [-186.448, 332.144, 1.225].The robot saw the following: In the video, you see a university campus corridor with a polished, shiny floor that reflects the overhead lights. The walls are a mix of white and a warm orange hue, creating a modern and inviting atmosphere. \n\nTo the left, there\u2019s a fire extinguisher mounted on the wall, indicating safety measures in place. As you look further down the corridor, a student walks by, carrying a backpack, suggesting a busy campus life. \n\nIn the background, there are a few people seated at small tables, engaged in conversation or studying, which adds to the lively environment. The area appears well-lit, with natural light filtering in from nearby windows, enhancing the overall ambiance. \n\nThe corridor leads to a doorway, hinting at more spaces beyond, possibly classrooms or common areas. Overall, the scene captures the essence of a bustling university setting, filled with students and a sense of community.\n\n",
+            "answers": {
+                "position": [
+                    -186.44837138709678,
+                    332.1441339354839,
+                    1.22504935483871
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_47b97723-1b7f-4dee-9a57-b71c478299b6",
+            "length_category": "SHORT",
+            "length": 115.89735722541809,
+            "start_time": 1674765612.896585,
+            "end_time": 1674765728.7939422,
+            "file_info": {
+                "qa_start_filename": "1674765611.445518.pkl",
+                "qa_end_filename": "1674765727.442308.pkl",
+                "context_start_filename": "1674765654.343719.pkl",
+                "context_end_filename": "1674765654.443576.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:40:12. The current time is 2023-01-26 15:42:08 and you are located at [-65.89, 93.11, -0.86]. \n What was written on the back of the trailer?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:40:55, the robot was at an average position of [-67.396, 153.475, -0.939].The robot saw the following: In the video, the scene unfolds on a university campus, showcasing a variety of elements that create a vibrant atmosphere.\n\n1. **People**: A few individuals can be seen walking in the background, likely students or staff, engaged in their daily activities. They appear to be casually dressed, suggesting a relaxed campus environment.\n\n2. **Objects**: A large black truck, marked with the name \"COTTON\" and contact information, is parked prominently in the center of the scene. The truck seems to be involved in some logistical operation, possibly delivering supplies or equipment.\n\n3. **Environmental Features**: The ground is paved with a distinctive herringbone pattern, made of bricks that add a classic touch to the campus. Surrounding the area are well-maintained trees, providing shade and a natural aesthetic. The sunlight filters through the leaves, creating a dappled light effect on the ground.\n\n4. **Buildings**: In the background, there are several buildings with a modern architectural style, featuring large windows and brick facades. These structures likely house classrooms or administrative offices.\n\n5. **Activities**: The atmosphere is calm, with people moving leisurely. Some may be heading to classes, while others could be taking a break or socializing.\n\n6. **Additional Details**: There are banners hanging from poles, possibly indicating school spirit or upcoming events. The landscaping is neat, with low shrubs and flower beds that enhance the campus's appeal.\n\nOverall, the scene captures a typical day on a university campus, blending academic life with a sense of community and nature.\n\n",
+            "answers": {
+                "text": [
+                    "The word \"Cotton\" was written on the back of the trailer"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_df3a971e-ad32-4e0e-b450-391e4ae37e24",
+            "length_category": "SHORT",
+            "length": 42.20326256752014,
+            "start_time": 1674764889.7723086,
+            "end_time": 1674764931.9755712,
+            "file_info": {
+                "qa_start_filename": "1674764888.32214.pkl",
+                "qa_end_filename": "1674764930.625457.pkl",
+                "context_start_filename": "1674764915.524127.pkl",
+                "context_end_filename": "1674764915.624116.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:28:09. The current time is 2023-01-26 15:28:51 and you are located at [-71.85, 221.57, -0.25]. \n Which hand was the person using to pull the cart?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:28:36, the robot was at an average position of [-70.906, 207.37, -0.398].The robot saw the following: In the video, you see a university campus pathway lined with trees and buildings. The ground is paved with a herringbone pattern, creating a visually appealing walkway. \n\n1. **People**: \n   - A person walks ahead, pushing a cart. They are dressed in dark clothing, possibly a coat, indicating cooler weather.\n   - In the background, several other individuals can be seen walking, some in groups, suggesting a lively atmosphere.\n\n2. **Objects**: \n   - The cart being pushed appears to be a small, wheeled one, possibly used for carrying books or supplies.\n   - There are also banners hanging from poles along the pathway, adding color and possibly indicating university events or promotions.\n\n3. **Environmental Features**: \n   - The area is shaded by large trees, which provide a pleasant canopy and create dappled shadows on the ground.\n   - The sunlight is bright, suggesting a clear day, and the shadows cast by the trees and people add depth to the scene.\n\n4. **Activities**: \n   - People seem to be engaged in casual walking, possibly heading to classes or socializing.\n   - The overall vibe is relaxed, typical of a university setting, with students and faculty moving about.\n\n5. **Interesting Details**: \n   - The contrast between the sunlight and shadows creates a dynamic visual effect.\n   - The pathway is well-maintained, indicating a cared-for campus environment.\n\nOverall, the scene captures a vibrant university atmosphere, blending nature with academic life.\n\n",
+            "answers": {
+                "text": [
+                    "The person was using their left hand to pull the cart"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_8938e1b4-a114-4f7d-a06c-d132acaba896",
+            "length_category": "SHORT",
+            "length": 76.49863600730896,
+            "start_time": 1674765805.1407952,
+            "end_time": 1674765881.6394312,
+            "file_info": {
+                "qa_start_filename": "1674765803.640113.pkl",
+                "qa_end_filename": "1674765880.242396.pkl",
+                "context_start_filename": "1674765831.140357.pkl",
+                "context_end_filename": "1674765831.243115.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:43:25. The current time is 2023-01-26 15:44:41 and you are located at [-1.95, 14.98, -0.43]. \n Which direction did you turn after the parked bicycles?",
+            "type": "text",
+            "context": "At time=2023-01-26 15:43:52, the robot was at an average position of [-34.778, 36.036, -0.951].The robot saw the following: In the video, you see a university campus setting characterized by a wide, concrete pathway flanked by buildings. \n\n1. **Pathway**: The ground is made of smooth concrete, with a faint white line running down the center. There are red markings along the edges, possibly indicating boundaries or pathways.\n\n2. **Buildings**: On the left, there's a building with a textured, light-colored facade, while the right side features a brick building with large windows. The architecture appears modern, with a mix of materials like brick and metal.\n\n3. **Bicycles**: Along the left side of the pathway, several bicycles are parked in a designated area, secured to bike racks. The bikes are mostly in bright colors, indicating they are likely used by students.\n\n4. **People**: A few individuals are walking along the pathway. One person, dressed in a dark jacket and light pants, is walking towards the camera, while another person is seen further down the path, possibly heading towards the building.\n\n5. **Environmental Features**: The area is well-lit, suggesting it\u2019s daytime. There are concrete barriers placed intermittently along the pathway, likely for safety or to guide foot traffic.\n\n6. **Activities**: The atmosphere appears calm, with no significant events or activities happening in the immediate vicinity. The presence of bicycles and pedestrians suggests a typical day on campus.\n\nOverall, the scene conveys a busy yet organized university environment, with a focus on accessibility and student life.\n\n",
+            "answers": {
+                "text": [
+                    "I turned right after the parked bicycles"
+                ]
+            }
+        },
+        {
+            "id": "6_SHORT_39bc90dd-27ee-420a-b578-046237c0b0aa",
+            "length_category": "SHORT",
+            "length": 97.19760465621948,
+            "start_time": 1674765671.0443244,
+            "end_time": 1674765768.241929,
+            "file_info": {
+                "qa_start_filename": "1674765669.547376.pkl",
+                "qa_end_filename": "1674765766.840608.pkl",
+                "context_start_filename": "1674765742.44424.pkl",
+                "context_end_filename": "1674765742.545348.pkl"
+            },
+            "question": "You started moving at 2023-01-26 15:41:11. The current time is 2023-01-26 15:42:48 and you are located at [-66.21, 69.59, -0.9]. \n Did you go over any grass?",
+            "type": "binary",
+            "context": "At time=2023-01-26 15:42:23, the robot was at an average position of [-63.96, 84.475, -0.827].The robot saw the following: In the video, you see a university campus setting characterized by a wide, tree-lined pathway. Here\u2019s a detailed breakdown of the scene:\n\n1. **Pathway and Surroundings**:\n   - The pathway is made of concrete and features a section with a patterned brick design, indicating a well-maintained area.\n   - There are neatly trimmed bushes along the edges of the walkway, adding greenery to the environment.\n   - Large trees provide shade, with their branches extending over the path, creating a pleasant atmosphere.\n\n2. **Lighting and Shadows**:\n   - The sunlight casts dappled shadows on the ground, creating a dynamic interplay of light and shade that enhances the visual appeal of the scene.\n\n3. **People**:\n   - Several individuals are walking along the pathway. They appear to be students, some wearing casual clothing, such as hoodies and shorts.\n   - A few people are seen walking in pairs or groups, suggesting a social atmosphere.\n   - The pedestrians seem engaged in conversation or focused on their phones, typical of a busy campus environment.\n\n4. **Bicycles**:\n   - In the background, there are several bicycles parked, indicating that cycling is a common mode of transportation on campus.\n\n5. **Buildings**:\n   - The architecture in the background features classic university-style buildings with large windows and brick facades, contributing to the academic ambiance.\n\n6. **Traffic**:\n   - A few vehicles can be seen on the road adjacent to the pathway, indicating that the area is accessible by car as well.\n\nOverall, the scene captures a vibrant and active university atmosphere, filled with students and a blend of natural and architectural beauty.\n\n",
+            "answers": {
+                "text": [
+                    "no",
+                    "no"
+                ]
+            }
+        }
+    ]
+}

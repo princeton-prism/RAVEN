@@ -1,0 +1,10 @@
+_base_: base.yaml
+params:
+  dataset: real_world
+  input_path: data/real_world_converted_down_sized
+  output_path: output/real_world_test/{method_and_models}
+  prompt_folder: prompts/sim_real_prompts
+  vlm_prompt_folder: prompts/sim_real_vlm_prompts
+  top_k: 1
+  temperature: 0.6
+  non_agent_max_image_len: 20

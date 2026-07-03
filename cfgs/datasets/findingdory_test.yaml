@@ -1,0 +1,21 @@
+_base_: base.yaml
+
+params:
+  dataset: findingdory
+  input_path: ./data/findingdory
+  output_path: ./output/fd/{method_and_models}
+  prompt_folder: prompts/fd_prompts
+  vlm_prompt_folder: prompts/fd_vlm_prompts
+  top_k: "{\"time\":200, \"text\":30, \"position\":1}"
+  temperature: 0.7
+  num_ctx: 16384
+  max_gen_tokens: 16384
+  max_tool_calls: 15
+  debug: true
+  memory_backend: faiss
+  post_fix: '_0'
+  non_agent_max_image_len: 3000
+  # additional params
+  eval_ep_ids: "-1" # which episode IDs to run, "-1" means all, e.g., "ep_1,ep_3"
+  eval_num: 5 # which episode IDs to run, -1 means all, e.g., 100
+  caption_step_num: 5 # Step number for frame sampling

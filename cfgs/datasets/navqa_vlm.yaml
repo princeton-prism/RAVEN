@@ -1,0 +1,17 @@
+_base_: base.yaml
+
+params:
+  dataset: navqa_vlm
+  mode: vlm
+  data_dir: ./data_vlm/
+  coda_dir: ./coda_data/
+  out_dir: ./data_vlm/test_results/
+  qa_file: human_qa
+  prompt_folder: prompts/navqa_prompts
+  vlm_prompt_folder: prompts/navqa_vlm_prompts
+  memory_storage: ./output/memory_storage
+  memory_backend: faiss
+  top_k: 5
+  temperature: 0.7
+  num_ctx: 16384
+  debug: true

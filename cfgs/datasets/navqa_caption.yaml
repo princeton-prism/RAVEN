@@ -1,0 +1,17 @@
+_base_: base.yaml
+
+params:
+  dataset: navqa_caption
+  mode: caption
+  data_dir: ./data/
+  coda_dir: ./coda_data/
+  out_dir: ./out/
+  qa_file: human_qa
+  caption_file: captions_gpt-4o-mini_3_secs
+  prompt_folder: prompts/navqa_prompts
+  memory_storage: ./output/memory_storage
+  memory_backend: faiss
+  top_k: 5
+  temperature: 0.7
+  num_ctx: 16384
+  debug: true

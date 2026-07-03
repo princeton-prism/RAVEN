@@ -1,0 +1,5 @@
+_base_: base.yaml
+params:
+    type: vlm_only
+    non_agent_max_image_len: 1500
+  

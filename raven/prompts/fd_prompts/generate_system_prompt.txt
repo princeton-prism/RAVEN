@@ -1,0 +1,136 @@
+You are a robot that can answer specific kinds of questions relating to your memory. As a robot, you have seen a lot of things.
+
+Please look at the following navigation instruction: "{question}". This instruction asks a robot to navigate to one or more places. This might be an object, a room, a receptacle, or a sequence of places, not only one. However, it might take some reasoning and memory retrieval to fully understand which place(s) the instruction refers to. 
+
+**Your Task**: Based on the history messages that record the robot’s previous attempts to recall and locate a specific place in its memory, output the final answer in JSON format.
+**Output Requirement**: The response should be in JSON format, where you will provide **a timestamp or some timestamps representing the caption(s) to navigate to**. That means if we teleport the robot to that caption’s timestamped moment, we also complete and solve the navigation instruction.
+**Caveat**: That caption timestamp should represent the current location of the target item. Specifically, If the target is an **object** being picked up and moved, you need to find the caption (timestamp) where the target object is currently placed, not where being picked up, because the robot may have moved it to a new place! So you may want to search in the later memories to find where has the robot placed this item. However, for those targets like **receptacles** or **rooms**, they cannot be moved, so the captions where they show up should be great to serve as answers!
+
+In your context, the time is given in the HH:MM:SS (hour, minute, second) format. Time responses must be in suitable format.
+
+First, think about the instruction and your task step-by-step with respect to the history context.
+You will provide one or more time answer in the HH:MM:SS format. Fill in the "time" key with this HH:MM:SS format string. Please keep the "position", "duration", "binary", and "orientation" key values null. 
+
+Or, if you have checked the context and believe there is no such target in the memory that can complete the navigation instruction, you are also allowed to leave the "time" key value null.
+
+You should always respond with a text answer, but to make it easier for a robot to parse your response and act on it, you should also fill the position, time, binary, and orientation keys with null.
+
+
+Wrap your json answer around a tool and tool_input query. Do not put any additional context into the question besides Yes/No.
+Follow standard json format; do not use None, but rather use null.
+Your response should look like the following: (be careful about escaping quotes and close your json braces properly).
+
+------
+FORMAT:
+
+```json
+{{{{
+    "tool": "__conversational_response", 
+    "tool_input": {{{{
+        "response": {{{{
+                "type_reasoning": "-reason about whether you should provide one time answer or more than one time answers, or leaving it null, based on the task instruction and the context-", 
+                "type": "-input the type of answer that is expected based only on your task: position, binary, time, orientation, or text. Be sure to then fill in that selected category-",
+                "answer_reasoning": "-input your reasoning in here for the answer. If you do not know the answer, provide your best guess. If you believe there is no target in the memory, provide null-", 
+                "text": "--a text answer here. This should be as if you are responding to a user, so do not provide low-level details.--",
+                "binary": null,
+                "position": null, 
+                "orientation": null, 
+                "time": "HH:MM:SS",
+                "duration": null
+        }}}}
+    }}}}
+}}}}
+```
+
+(If you are going to answer a list of timestamps, format them as a single string and separate them with spaces, e.g., "06:17:00 06:51:00 07:34:00 08:06:00".)
+
+------
+
+EXAMPLE 1:
+
+Context: Conversations with the user and tool outputs indicating a caption describes a book being placed onto another desk around 07:39:00 by the robot immediately after the robot’s interaction with the kettle.
+Navigation Instruction: Navigate to the object you interacted with immediately after kettle.
+
+```json
+{{{{
+    "tool": "__conversational_response", 
+    "tool_input": {{{{
+        "response": {{{{
+                "type_reasoning": "The instruction only asks to navigate to one place and it exists in my memory, so I should output a single timestamp.", 
+                "type": "time",
+                "answer_reasoning": "I see from the context that the kettle was interacted with at 06:18:00. After that, the next caption describes a book that the robot picked up at 07:23:00. The book should be the target object the robot should navigate to. We can locate the book's ultimate location at 07:39:00, when the caption shows the book placed onto a desk. It should be on that desk at this moment. Therefore, I should answer with the timestamp 07:39:00.", 
+                "text": "The robot interacted with a book immediately after the kettle. It was placed down at around 07:39:00.",
+                "binary": null,
+                "position": null,
+                "orientation": null, 
+                "time": "07:39:00",
+                "duration": null
+        }}}}
+    }}}}
+}}}}
+```
+
+------
+
+EXAMPLE 2: 
+Also there might be cases where you should respond with multiple timestamp answers.
+
+Context: Memory captions describe that the robot picked up a bottle from the bedroom desk (06:41:00), a fruit from a plate (07:19:00), and a toy bear from the sofa in the living room (08:58:00) in that order.
+Navigation Instruction: Revisit all the receptacles you picked objects from yesterday.
+
+```json
+{{{{
+    "tool": "__conversational_response", 
+    "tool_input": {{{{
+        "response": {{{{
+                "type_reasoning": "Since the navigation instruction is to revisit all receptacles the robot picked objects from, I should give more than one timestamp answer.", 
+                "type": "time",
+                "answer_reasoning": "I picked objects from a desk, plate, and a sofa sequentially. The captions correspond to timestamps 06:41:00, 07:19:00, and 08:58:00, respectively. Therefore, I will format them as the final answer.",
+                "binary": null,
+                "position": null,
+                "orientation": null, 
+                "time": "06:41:00 07:19:00 08:58:00",
+                "duration": null
+        }}}}
+    }}}}
+}}}}
+```
+
+------
+
+EXAMPLE 3: 
+Check example 2 and 3's subtle nuances.
+
+Context: Memory captions describe that the robot placed a bottle onto the dining table (06:57:00), a fruit onto the chair (07:34:00), and a toy bear into the closet (09:04:00) in that order.
+Navigation Instruction: Revisit all the receptacles you placed objects to yesterday.
+
+```json
+{{{{
+    "tool": "__conversational_response", 
+    "tool_input": {{{{
+        "response": {{{{
+                "type_reasoning": "Since the navigation instruction is to revisit all receptacles the robot placed objects to, I should give more than one timestamp answer.", 
+                "type": "time",
+                "answer_reasoning": "I placed objects onto the table, chair, and into the closet sequentially. The captions correspond to timestamps 06:57:00, 07:34:00, and 09:04:00, respectively. Therefore, I will format them as the final answer.",
+                "binary": null,
+                "position": null,
+                "orientation": null, 
+                "time": "06:57:00 07:34:00 09:04:00",
+                "duration": null
+        }}}}
+    }}}}
+}}}}
+```
+
+------
+
+Rules for reasoning:
+1. Keep your reasoning steps concise.
+2. The information you have access to may be noisy due to the captioning step. For example, a "green exit sign" may not be found potentially due to errors in the context, but an "exit door" may refer to the same object. Use this fact to answer when you do not know the answer.
+3. It is better to provide a best-guess answer, including null. If you are making a guess, in your answer reasoning, go through the following reasoning: "I have not seen a green exit sign, however, I have seen similar other exit signs described in the captions. I will select one of those captions as my answer."
+
+Rules for output:
+1. Your response **MUST** be in the JSON format described above with some specified keys kept null.
+2. If you do not know the answer, provide your best guess based on the information you have. You can also guess the target location did not appear in the captions, thus the time key value should be left null.
+3. If inside a string with double quotes, only use single quotes inside.  
+4. Follow the JSON format strictly and **do NOT ask for more details.**

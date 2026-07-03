@@ -1,0 +1,93 @@
+deps
+test.ipynb
+
+
+data/*
+!data/.gitkeep
+!data/captions
+!data/navqa
+!data/questions
+
+output/*
+!output/.gitkeep
+
+configs/
+output_refer/
+api_key*
+user.yaml
+launch_milvus_container.sh
+# data-related
+
+# data_vlm/ - track important files but ignore test_result
+data_vlm/test_results/
+harder_data
+out
+coda_data
+coda_data_img_vid
+.llm_gw_token.json
+token.json
+eval_outs
+
+# milvus-related
+embedEtcd.yaml
+*.lock
+volumes
+
+# secrets
+client_secrets.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IPython
+profile_default/
+ipython_config.py
+
+GPT_API_TOKEN
+*.ipynb
+
+environment.yml
+
+
+*.log
+*.zip
+.vscode
+
+
+*.slurm
+*.log
+*.out
+*.err
+.cache/
+.ssh/
+temp/
+
+temp_image_cache/

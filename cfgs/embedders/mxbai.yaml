@@ -1,0 +1,6 @@
+_base_: base.yaml
+
+target: HuggingFaceEmbeddings
+
+params:
+  emb_dim: 1024

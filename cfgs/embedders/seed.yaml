@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: ol
+  emb_dim: 2048
+  online_model_nickname: seed1.6
+  

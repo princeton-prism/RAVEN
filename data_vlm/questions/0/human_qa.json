@@ -1,0 +1,672 @@
+{
+    "version": 0.1,
+    "data": [
+        {
+            "id": "LONG_5a6cef0c-175d-4779-bfd4-f7b193fb9039",
+            "length_category": "LONG",
+            "length": 449.88780331611633,
+            "start_time": 1673884532.773957,
+            "end_time": 1673884982.6617603,
+            "file_info": {
+                "qa_start_filename": "1673884531.323784.pkl",
+                "qa_end_filename": "1673884981.262587.pkl",
+                "context_start_filename": "1673884736.94361.pkl",
+                "context_end_filename": "1673884739.942289.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:55:32. The current time is 2023-01-16 11:03:02 and you are located at [1.42, 2.28, -0.17]. \n When did you leave the building?",
+            "type": "time",
+            "context": "At time=2023-01-16 10:58:58, the robot was at an average position of [-107.086, 110.833, -3.435].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "4.07 minutes ago"
+                ],
+                "time": 4.07
+            }
+        },
+        {
+            "id": "LONG_8f32d561-e898-453c-ae99-2e53745389e1",
+            "length_category": "LONG",
+            "length": 521.9491529464722,
+            "start_time": 1673884331.153418,
+            "end_time": 1673884853.102571,
+            "file_info": {
+                "qa_start_filename": "1673884329.703198.pkl",
+                "qa_end_filename": "1673884851.752448.pkl",
+                "context_start_filename": "1673884591.831021.pkl",
+                "context_end_filename": "1673884594.734541.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:52:11. The current time is 2023-01-16 11:00:53 and you are located at [-56.28, 77.78, -2.15]. \n When did you first enter the building?",
+            "type": "time",
+            "context": "At time=2023-01-16 10:56:33, the robot was at an average position of [-87.575, 203.572, -1.884].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "4.33 minutes ago"
+                ],
+                "time": 4.33
+            }
+        },
+        {
+            "id": "LONG_cbe5ca33-b001-47c4-9397-aca6d275e5e4",
+            "length_category": "LONG",
+            "length": 684.8592975139618,
+            "start_time": 1673884316.1515949,
+            "end_time": 1673885001.0108924,
+            "file_info": {
+                "qa_start_filename": "1673884314.701463.pkl",
+                "qa_end_filename": "1673884999.657634.pkl",
+                "context_start_filename": "1673884597.837111.pkl",
+                "context_end_filename": "1673884739.942289.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:51:56. The current time is 2023-01-16 11:03:21 and you are located at [-0.34, 0.06, -0.01]. \n How long were you in the building for?",
+            "type": "duration",
+            "context": "At time=2023-01-16 10:56:39, the robot was at an average position of [-89.938, 203.467, -1.885].The robot saw the following: unknown\n\nAt time=2023-01-16 10:58:58, the robot was at an average position of [-107.086, 110.833, -3.435].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "2.3 minutes"
+                ],
+                "duration": 2.3
+            }
+        },
+        {
+            "id": "LONG_115fe136-a8ee-43f7-858d-a0a357c03fad",
+            "length_category": "LONG",
+            "length": 494.94618034362793,
+            "start_time": 1673884349.1557107,
+            "end_time": 1673884844.101891,
+            "file_info": {
+                "qa_start_filename": "1673884347.705484.pkl",
+                "qa_end_filename": "1673884842.751738.pkl",
+                "context_start_filename": "1673884670.446189.pkl",
+                "context_end_filename": "1673884673.347697.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:52:29. The current time is 2023-01-16 11:00:44 and you are located at [-55.74, 86.31, -2.11]. \n Where is the closest place to sit?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:57:51, the robot was at an average position of [-104.614, 170.224, -2.407].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -104.61440453333334,
+                    170.2240391666667,
+                    -2.4068897999999996
+                ]
+            }
+        },
+        {
+            "id": "LONG_7213d1b5-0f7a-4361-b779-c6689042ae8a",
+            "length_category": "LONG",
+            "length": 722.968642950058,
+            "start_time": 1673884205.1412687,
+            "end_time": 1673884928.1099117,
+            "file_info": {
+                "qa_start_filename": "1673884203.691077.pkl",
+                "qa_end_filename": "1673884926.759779.pkl",
+                "context_start_filename": "1673884788.248779.pkl",
+                "context_end_filename": "1673884791.248168.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:50:05. The current time is 2023-01-16 11:02:08 and you are located at [-22.67, 37.41, -1.5]. \n Where is the yellow police call pole?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:59:49, the robot was at an average position of [-75.761, 93.427, -2.429].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -75.76141051612903,
+                    93.42734903225808,
+                    -2.4290613225806448
+                ]
+            }
+        },
+        {
+            "id": "LONG_74167a94-2255-4d16-bb78-db37801acc0a",
+            "length_category": "LONG",
+            "length": 608.9567198753357,
+            "start_time": 1673884337.1544888,
+            "end_time": 1673884946.1112087,
+            "file_info": {
+                "qa_start_filename": "1673884335.704203.pkl",
+                "qa_end_filename": "1673884944.76106.pkl",
+                "context_start_filename": "1673884555.52733.pkl",
+                "context_end_filename": "1673884558.527271.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:52:17. The current time is 2023-01-16 11:02:26 and you are located at [-7.12, 33.57, -0.96]. \n Where is the statue in front of the Bill and Melinda Gates Computer Science building?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:55:57, the robot was at an average position of [-60.197, 196.541, -1.097].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -60.1973617419355,
+                    196.54061870967743,
+                    -1.096614193548387
+                ]
+            }
+        },
+        {
+            "id": "LONG_f4661173-26c9-4939-824c-a238736d53ef",
+            "length_category": "LONG",
+            "length": 554.6039714813232,
+            "start_time": 1673884235.1443243,
+            "end_time": 1673884789.7482958,
+            "file_info": {
+                "qa_start_filename": "1673884233.694191.pkl",
+                "qa_end_filename": "1673884788.348729.pkl",
+                "context_start_filename": "1673884682.450604.pkl",
+                "context_end_filename": "1673884685.350871.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:50:35. The current time is 2023-01-16 10:59:49 and you are located at [-75.76, 93.43, -2.43]. \n Where is the nearest recycling bin?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:58:03, the robot was at an average position of [-102.855, 159.091, -2.589].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -102.85481153333333,
+                    159.09055453333335,
+                    -2.5889398
+                ]
+            }
+        },
+        {
+            "id": "LONG_242c13b6-b47f-4022-9697-02611d770526",
+            "length_category": "LONG",
+            "length": 581.9552934169769,
+            "start_time": 1673884325.152643,
+            "end_time": 1673884907.1079364,
+            "file_info": {
+                "qa_start_filename": "1673884323.702449.pkl",
+                "qa_end_filename": "1673884905.757789.pkl",
+                "context_start_filename": "1673884848.652202.pkl",
+                "context_end_filename": "1673884851.55245.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:52:05. The current time is 2023-01-16 11:01:47 and you are located at [-42.04, 39.9, -1.99]. \n Where did you see the sculpture with the hanging boats?",
+            "type": "position",
+            "context": "At time=2023-01-16 11:00:50, the robot was at an average position of [-56.083, 80.659, -2.139].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -56.08268643333333,
+                    80.65901996666668,
+                    -2.139001066666667
+                ]
+            }
+        },
+        {
+            "id": "LONG_82e9a231-76cf-446e-9a04-4afd6c831b2d",
+            "length_category": "LONG",
+            "length": 594.6468923091888,
+            "start_time": 1673884409.413914,
+            "end_time": 1673885004.0608063,
+            "file_info": {
+                "qa_start_filename": "1673884407.913838.pkl",
+                "qa_end_filename": "1673885002.66134.pkl",
+                "context_start_filename": "1673884806.449052.pkl",
+                "context_end_filename": "1673884809.349576.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:53:29. The current time is 2023-01-16 11:03:24 and you are located at [-0.07, 0.06, -0.0]. \n Was the brick sidewalk busy?",
+            "type": "binary",
+            "context": "At time=2023-01-16 11:00:07, the robot was at an average position of [-60.573, 91.904, -2.156].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "no",
+                    "no"
+                ]
+            }
+        },
+        {
+            "id": "LONG_38a496dc-1afd-4e26-b8b2-c6640cab0499",
+            "length_category": "LONG",
+            "length": 575.9545788764954,
+            "start_time": 1673884268.1473122,
+            "end_time": 1673884844.101891,
+            "file_info": {
+                "qa_start_filename": "1673884266.697187.pkl",
+                "qa_end_filename": "1673884842.751738.pkl",
+                "context_start_filename": "1673884712.453442.pkl",
+                "context_end_filename": "1673884715.353729.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:51:08. The current time is 2023-01-16 11:00:44 and you are located at [-55.74, 86.31, -2.11]. \n Where are the closest elevators?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:58:33, the robot was at an average position of [-104.388, 131.74, -3.104].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -104.38796999999998,
+                    131.73958856666667,
+                    -3.1037119666666664
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_3373f674-4a26-465b-9a08-8ca73651a0af",
+            "length_category": "MEDIUM",
+            "length": 129.62322688102722,
+            "start_time": 1673884590.280919,
+            "end_time": 1673884719.904146,
+            "file_info": {
+                "qa_start_filename": "1673884588.830469.pkl",
+                "qa_end_filename": "1673884718.554022.pkl",
+                "context_start_filename": "1673884585.828912.pkl",
+                "context_end_filename": "1673884588.730402.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:56:30. The current time is 2023-01-16 10:58:39 and you are located at [-104.67, 126.05, -3.19]. \n What color jacket was the person who opened the door for you wearing?",
+            "type": "text",
+            "context": "At time=2023-01-16 10:56:27, the robot was at an average position of [-82.981, 203.951, -1.944].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "They were wearing a blue puffer jacket"
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_28199d34-e26c-4b79-8775-943431d3a68a",
+            "length_category": "MEDIUM",
+            "length": 286.284930229187,
+            "start_time": 1673884319.1519153,
+            "end_time": 1673884605.4368455,
+            "file_info": {
+                "qa_start_filename": "1673884317.701719.pkl",
+                "qa_end_filename": "1673884604.037266.pkl",
+                "context_start_filename": "1673884555.52733.pkl",
+                "context_end_filename": "1673884558.527271.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:51:59. The current time is 2023-01-16 10:56:45 and you are located at [-90.33, 203.52, -1.88]. \n Where is the statue in front of the Bill and Melinda Gates Computer Science building?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:55:57, the robot was at an average position of [-60.197, 196.541, -1.097].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -60.1973617419355,
+                    196.54061870967743,
+                    -1.096614193548387
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_afd2f89f-f0b9-4082-9136-e2122475c3cd",
+            "length_category": "MEDIUM",
+            "length": 217.18056511878967,
+            "start_time": 1673884409.413914,
+            "end_time": 1673884626.594479,
+            "file_info": {
+                "qa_start_filename": "1673884407.913838.pkl",
+                "qa_end_filename": "1673884625.245187.pkl",
+                "context_start_filename": "1673884438.314206.pkl",
+                "context_end_filename": "1673884441.214297.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:53:29. The current time is 2023-01-16 10:57:06 and you are located at [-100.96, 201.25, -2.03]. \n What side of the brick sidewalk were you walking on?",
+            "type": "text",
+            "context": "At time=2023-01-16 10:53:59, the robot was at an average position of [-52.409, 145.796, -1.727].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "I was driving on the right side of the sidewalk"
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_02da6f10-4ce1-4eb3-a416-c4522e9c8133",
+            "length_category": "MEDIUM",
+            "length": 389.33634853363037,
+            "start_time": 1673884457.765781,
+            "end_time": 1673884847.1021295,
+            "file_info": {
+                "qa_start_filename": "1673884456.315665.pkl",
+                "qa_end_filename": "1673884845.752014.pkl",
+                "context_start_filename": "1673884670.446189.pkl",
+                "context_end_filename": "1673884673.347697.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:54:17. The current time is 2023-01-16 11:00:47 and you are located at [-55.92, 83.52, -2.11]. \n Where is the closest place to sit?",
+            "type": "position",
+            "context": "At time=2023-01-16 10:57:51, the robot was at an average position of [-104.614, 170.224, -2.407].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -104.61440453333334,
+                    170.2240391666667,
+                    -2.4068897999999996
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_9595c924-7840-4964-8bd0-d6e3080bcd65",
+            "length_category": "MEDIUM",
+            "length": 311.2295618057251,
+            "start_time": 1673884514.771724,
+            "end_time": 1673884826.0012858,
+            "file_info": {
+                "qa_start_filename": "1673884513.321656.pkl",
+                "qa_end_filename": "1673884824.650921.pkl",
+                "context_start_filename": "1673884591.831021.pkl",
+                "context_end_filename": "1673884594.734541.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:55:14. The current time is 2023-01-16 11:00:26 and you are located at [-54.6, 91.01, -2.04]. \n When did you first enter the building?",
+            "type": "time",
+            "context": "At time=2023-01-16 10:56:33, the robot was at an average position of [-87.575, 203.572, -1.884].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "3.88 minutes ago"
+                ],
+                "time": 3.88
+            }
+        },
+        {
+            "id": "MEDIUM_11801608-016d-4367-8247-4a885afef25d",
+            "length_category": "MEDIUM",
+            "length": 189.9626317024231,
+            "start_time": 1673884801.8985457,
+            "end_time": 1673884991.8611774,
+            "file_info": {
+                "qa_start_filename": "1673884800.448579.pkl",
+                "qa_end_filename": "1673884990.460157.pkl",
+                "context_start_filename": "1673884848.652202.pkl",
+                "context_end_filename": "1673884851.55245.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:00:01. The current time is 2023-01-16 11:03:11 and you are located at [-1.22, -1.41, -0.04]. \n Where did you see the sculpture with the hanging boats?",
+            "type": "position",
+            "context": "At time=2023-01-16 11:00:50, the robot was at an average position of [-56.083, 80.659, -2.139].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -56.08268643333333,
+                    80.65901996666668,
+                    -2.139001066666667
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_022ee3b7-38a6-4a36-9f48-fa656ea3cf21",
+            "length_category": "MEDIUM",
+            "length": 310.828489780426,
+            "start_time": 1673884581.2777796,
+            "end_time": 1673884892.1062694,
+            "file_info": {
+                "qa_start_filename": "1673884579.827572.pkl",
+                "qa_end_filename": "1673884890.756073.pkl",
+                "context_start_filename": "1673884616.13694.pkl",
+                "context_end_filename": "1673884619.037227.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:56:21. The current time is 2023-01-16 11:01:32 and you are located at [-55.47, 43.57, -2.26]. \n What were the color of the couches near where I entered the building?",
+            "type": "text",
+            "context": "At time=2023-01-16 10:56:57, the robot was at an average position of [-94.765, 203.953, -1.922].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "The couches were red."
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_b5b98312-f881-422d-b2cb-4b9c5696948b",
+            "length_category": "MEDIUM",
+            "length": 186.76357674598694,
+            "start_time": 1673884795.8981836,
+            "end_time": 1673884982.6617603,
+            "file_info": {
+                "qa_start_filename": "1673884794.448126.pkl",
+                "qa_end_filename": "1673884981.262587.pkl",
+                "context_start_filename": "1673884806.449052.pkl",
+                "context_end_filename": "1673884809.349576.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:59:55. The current time is 2023-01-16 11:03:02 and you are located at [1.42, 2.28, -0.17]. \n When did you cross the brick street?",
+            "type": "time",
+            "context": "At time=2023-01-16 11:00:07, the robot was at an average position of [-60.573, 91.904, -2.156].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "2.91 minutes ago"
+                ],
+                "time": 2.91
+            }
+        },
+        {
+            "id": "MEDIUM_c6c87c47-04c3-44ca-a1be-053153b740c5",
+            "length_category": "MEDIUM",
+            "length": 281.0075514316559,
+            "start_time": 1673884713.9035764,
+            "end_time": 1673884994.9111278,
+            "file_info": {
+                "qa_start_filename": "1673884712.453442.pkl",
+                "qa_end_filename": "1673884993.55943.pkl",
+                "context_start_filename": "1673884923.659534.pkl",
+                "context_end_filename": "1673884926.559782.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:58:33. The current time is 2023-01-16 11:03:14 and you are located at [-1.21, -0.9, -0.05]. \n Where is the nearest bike rack that is not empty?",
+            "type": "position",
+            "context": "At time=2023-01-16 11:02:05, the robot was at an average position of [-25.409, 37.771, -1.555].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -25.409017133333336,
+                    37.77082069999999,
+                    -1.5545138
+                ]
+            }
+        },
+        {
+            "id": "MEDIUM_254c3f52-e4ed-4828-ba85-42a500ff8676",
+            "length_category": "MEDIUM",
+            "length": 123.66027760505676,
+            "start_time": 1673884602.387374,
+            "end_time": 1673884726.0476515,
+            "file_info": {
+                "qa_start_filename": "1673884600.936982.pkl",
+                "qa_end_filename": "1673884724.649261.pkl",
+                "context_start_filename": "1673884619.137176.pkl",
+                "context_end_filename": "1673884622.037226.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:56:42. The current time is 2023-01-16 10:58:46 and you are located at [-105.01, 120.24, -3.27]. \n When were you in the atrium with the red couches?",
+            "type": "time",
+            "context": "At time=2023-01-16 10:57:00, the robot was at an average position of [-96.981, 203.953, -1.936].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "1.76 minutes ago"
+                ],
+                "time": 1.76
+            }
+        },
+        {
+            "id": "SHORT_39a4eb19-b64e-4289-abcf-92ea6c3debba",
+            "length_category": "SHORT",
+            "length": 81.9946072101593,
+            "start_time": 1673884713.9035764,
+            "end_time": 1673884795.8981836,
+            "file_info": {
+                "qa_start_filename": "1673884712.453442.pkl",
+                "qa_end_filename": "1673884794.548095.pkl",
+                "context_start_filename": "1673884736.94361.pkl",
+                "context_end_filename": "1673884794.348117.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:58:33. The current time is 2023-01-16 10:59:55 and you are located at [-70.33, 92.86, -2.26]. \n How long have you been outside?",
+            "type": "duration",
+            "context": "At time=2023-01-16 10:58:58, the robot was at an average position of [-107.086, 110.833, -3.435].The robot saw the following: unknown\n\nAt time=2023-01-16 10:59:52, the robot was at an average position of [-72.929, 93.132, -2.342].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "1 minutes"
+                ],
+                "duration": 1.0
+            }
+        },
+        {
+            "id": "SHORT_37a3097f-a357-4af3-8a84-244e1b767ddf",
+            "length_category": "SHORT",
+            "length": 75.75372624397278,
+            "start_time": 1673884729.145201,
+            "end_time": 1673884804.8989272,
+            "file_info": {
+                "qa_start_filename": "1673884727.646265.pkl",
+                "qa_end_filename": "1673884803.548804.pkl",
+                "context_start_filename": "1673884736.94361.pkl",
+                "context_end_filename": "1673884739.942289.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:58:49. The current time is 2023-01-16 11:00:04 and you are located at [-63.15, 92.12, -2.13]. \n When did you leave the building?",
+            "type": "time",
+            "context": "At time=2023-01-16 10:58:58, the robot was at an average position of [-107.086, 110.833, -3.435].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "1.11 minutes ago"
+                ],
+                "time": 1.11
+            }
+        },
+        {
+            "id": "SHORT_31d323c2-930f-4111-85b0-d92e960ee600",
+            "length_category": "SHORT",
+            "length": 75.16009044647217,
+            "start_time": 1673884478.7676463,
+            "end_time": 1673884553.9277368,
+            "file_info": {
+                "qa_start_filename": "1673884477.317517.pkl",
+                "qa_end_filename": "1673884552.52802.pkl",
+                "context_start_filename": "1673884501.320573.pkl",
+                "context_end_filename": "1673884504.220899.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:54:38. The current time is 2023-01-16 10:55:53 and you are located at [-57.45, 195.7, -1.05]. \n What side of the street are you driving on?",
+            "type": "text",
+            "context": "At time=2023-01-16 10:55:02, the robot was at an average position of [-50.59, 175.142, -1.416].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "I was driving on the left side of the street"
+                ]
+            }
+        },
+        {
+            "id": "SHORT_bbfb623d-89d7-4698-9e91-be03c2720fc8",
+            "length_category": "SHORT",
+            "length": 96.30728960037231,
+            "start_time": 1673884874.1044726,
+            "end_time": 1673884970.4117622,
+            "file_info": {
+                "qa_start_filename": "1673884872.65435.pkl",
+                "qa_end_filename": "1673884969.063178.pkl",
+                "context_start_filename": "1673884884.655395.pkl",
+                "context_end_filename": "1673884887.555663.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:01:14. The current time is 2023-01-16 11:02:50 and you are located at [0.84, 13.73, -0.37]. \n When did you get off of the brick sidewalk?",
+            "type": "time",
+            "context": "At time=2023-01-16 11:01:26, the robot was at an average position of [-58.704, 47.382, -2.299].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "1.41 minutes ago"
+                ],
+                "time": 1.41
+            }
+        },
+        {
+            "id": "SHORT_f20ba66d-74e4-4e2e-9a91-ac2576f16e0a",
+            "length_category": "SHORT",
+            "length": 66.90055441856384,
+            "start_time": 1673884934.110338,
+            "end_time": 1673885001.0108924,
+            "file_info": {
+                "qa_start_filename": "1673884932.660223.pkl",
+                "qa_end_filename": "1673884999.657634.pkl",
+                "context_start_filename": "1673884962.762715.pkl",
+                "context_end_filename": "1673884965.761457.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:02:14. The current time is 2023-01-16 11:03:21 and you are located at [-0.34, 0.06, -0.01]. \n Where did you see a red fire hydrant?",
+            "type": "position",
+            "context": "At time=2023-01-16 11:02:44, the robot was at an average position of [-0.059, 19.546, -0.458].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -0.05857329032258064,
+                    19.54602912903226,
+                    -0.4581363870967742
+                ]
+            }
+        },
+        {
+            "id": "SHORT_a29d9195-acc1-46ea-a225-95816e21e802",
+            "length_category": "SHORT",
+            "length": 57.45535612106323,
+            "start_time": 1673884738.4428275,
+            "end_time": 1673884795.8981836,
+            "file_info": {
+                "qa_start_filename": "1673884736.94361.pkl",
+                "qa_end_filename": "1673884794.548095.pkl",
+                "context_start_filename": "1673884752.043736.pkl",
+                "context_end_filename": "1673884754.943964.pkl"
+            },
+            "question": "You started moving at 2023-01-16 10:58:58. The current time is 2023-01-16 10:59:55 and you are located at [-70.33, 92.86, -2.26]. \n Which direction did you turn after leaving the building?",
+            "type": "text",
+            "context": "At time=2023-01-16 10:59:13, the robot was at an average position of [-106.455, 97.838, -3.42].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "I turned left after driving off the sidewalk"
+                ]
+            }
+        },
+        {
+            "id": "SHORT_103d708a-b002-415c-ab49-ff02f654c490",
+            "length_category": "SHORT",
+            "length": 30.550694704055786,
+            "start_time": 1673884955.2116244,
+            "end_time": 1673884985.762319,
+            "file_info": {
+                "qa_start_filename": "1673884953.761652.pkl",
+                "qa_end_filename": "1673884984.361195.pkl",
+                "context_start_filename": "1673884962.762715.pkl",
+                "context_end_filename": "1673884965.761457.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:02:35. The current time is 2023-01-16 11:03:05 and you are located at [1.11, -0.21, -0.01]. \n Did you see a red fire hydrant?",
+            "type": "binary",
+            "context": "At time=2023-01-16 11:02:44, the robot was at an average position of [-0.059, 19.546, -0.458].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "SHORT_426931a9-038a-48a3-a27b-0f7b12948a81",
+            "length_category": "SHORT",
+            "length": 72.10592246055603,
+            "start_time": 1673884823.0006893,
+            "end_time": 1673884895.1066117,
+            "file_info": {
+                "qa_start_filename": "1673884821.550341.pkl",
+                "qa_end_filename": "1673884893.756429.pkl",
+                "context_start_filename": "1673884836.552372.pkl",
+                "context_end_filename": "1673884839.551426.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:00:23. The current time is 2023-01-16 11:01:35 and you are located at [-53.1, 42.26, -2.22]. \n Did you see any bicyclists?",
+            "type": "binary",
+            "context": "At time=2023-01-16 11:00:38, the robot was at an average position of [-54.688, 90.733, -2.052].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        },
+        {
+            "id": "SHORT_b928a4aa-a1fb-4161-ad8c-78e6f1e78eca",
+            "length_category": "SHORT",
+            "length": 99.05873370170593,
+            "start_time": 1673884838.0518606,
+            "end_time": 1673884937.1105943,
+            "file_info": {
+                "qa_start_filename": "1673884836.552372.pkl",
+                "qa_end_filename": "1673884935.76041.pkl",
+                "context_start_filename": "1673884848.652202.pkl",
+                "context_end_filename": "1673884851.55245.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:00:38. The current time is 2023-01-16 11:02:17 and you are located at [-14.58, 36.58, -1.31]. \n Where did you see the sculpture with the hanging boats?",
+            "type": "position",
+            "context": "At time=2023-01-16 11:00:50, the robot was at an average position of [-56.083, 80.659, -2.139].The robot saw the following: unknown\n\n",
+            "answers": {
+                "position": [
+                    -56.08268643333333,
+                    80.65901996666668,
+                    -2.139001066666667
+                ]
+            }
+        },
+        {
+            "id": "SHORT_21548fa5-15ca-4f06-923e-a99b0fb2253a",
+            "length_category": "SHORT",
+            "length": 36.699074029922485,
+            "start_time": 1673884967.3617322,
+            "end_time": 1673885004.0608063,
+            "file_info": {
+                "qa_start_filename": "1673884965.861486.pkl",
+                "qa_end_filename": "1673885002.66134.pkl",
+                "context_start_filename": "1673884984.262574.pkl",
+                "context_end_filename": "1673884987.260316.pkl"
+            },
+            "question": "You started moving at 2023-01-16 11:02:47. The current time is 2023-01-16 11:03:24 and you are located at [-0.07, 0.06, -0.0]. \n Are you stopped in a loading zone right now?",
+            "type": "binary",
+            "context": "At time=2023-01-16 11:03:05, the robot was at an average position of [1.108, -0.211, -0.005].The robot saw the following: unknown\n\n",
+            "answers": {
+                "text": [
+                    "yes",
+                    "yes"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+_base_: base.yaml
+
+# Vertex AI (Google multimodal embeddings) requires two env vars:
+#   GOOGLE_CLOUD_PROJECT   — your GCP project ID (required)
+#   GOOGLE_CLOUD_LOCATION  — region for Vertex AI (optional, defaults to us-central1)
+# You must also have run `gcloud auth application-default login` or set
+# GOOGLE_APPLICATION_CREDENTIALS to a service-account key file.
+params:
+  backend: ol
+  emb_dim: 1408
+  online_model_nickname: google

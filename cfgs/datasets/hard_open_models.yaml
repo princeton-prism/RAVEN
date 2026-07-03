@@ -1,0 +1,10 @@
+_base_: base.yaml
+
+params:
+  dataset: irs_hard
+  input_path: data/irs_hard_converted_down_sized
+  output_path: output/irs_hard/{method_and_models}
+  prompt_folder: prompts/irs_prompts
+  vlm_prompt_folder: prompts/irs_vlm_prompts
+  temperature: 0.6 #0.0001
+  non_agent_max_image_len: 20

@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: hf
+  hf_model_id: google/paligemma2-3b-mix-224
+  vlm_layer: 5
+  emb_dim: 2304 # not sure about this

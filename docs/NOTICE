@@ -1,0 +1,16 @@
+NOTICE
+======
+
+This project includes or modifies code from the following open-source repositories:
+
+1. Remembr
+   URL: https://github.com/NVIDIA-AI-IOT/remembr
+   License: MIT License
+   Copyright (c) 2023 Authors
+   Modifications: Partially adapted for the new VLM-based agent by RAVEN authors (2025)
+
+2. QQMM-embed
+   URL: https://github.com/QQ-MM/QQMM-embed
+   License: Apache License 2.0
+   Copyright (c) 2025 Authors
+   Modifications: Integrated with the code by RAVEN authors (2025)

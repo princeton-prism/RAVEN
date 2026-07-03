@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: oc
+  oc_model: ViT-B-32
+  oc_pretrained: laion2b_s34b_b79k
+  emb_dim: 512

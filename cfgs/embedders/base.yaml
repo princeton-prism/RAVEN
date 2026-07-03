@@ -1,0 +1,15 @@
+target: VLMEmbeddings
+
+params:
+  device: cuda
+  backend: null
+  oc_model: null
+  oc_pretrained: null
+  hf_model_id: null
+  vlm_layer: 1
+  batch_size: 64
+  fp_16: false
+  emb_dim: 1024
+  vlm_text_prompts: ""
+  vlm_image_prompts: "Imagine the scene."
+  online_model_nickname: null

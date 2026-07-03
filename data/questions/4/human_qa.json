@@ -1,0 +1,667 @@
+{
+    "version": 0.1,
+    "data": [
+        {
+            "id": "4_LONG_08d008fa-3196-4899-ad9c-e5006dd4abd0",
+            "length_category": "LONG",
+            "length": 627.252295255661,
+            "start_time": 1674087874.6214387,
+            "end_time": 1674088501.873734,
+            "file_info": {
+                "qa_start_filename": "1674087873.171286.pkl",
+                "qa_end_filename": "1674088500.473443.pkl",
+                "context_start_filename": "1674087933.176981.pkl",
+                "context_end_filename": "1674088014.384664.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:24:34. The current time is 2023-01-18 19:35:01 and you are located at [0.46, 14.2, -0.31]. \n how long do you wait for entering the building?",
+            "type": "duration",
+            "context": "At time=2023-01-18 19:25:34, the robot was at an average position of [-109.395, 105.202, -4.074].The robot saw the following: In the video, you see a series of shots focused on the entrance of a university building. Here\u2019s a detailed breakdown of what is visible:\n\n1. **Entrance Area**: The camera is positioned low, looking up at the glass doors of the building. The entrance is framed by large glass panels, allowing a view into the interior.\n\n2. **Signage**: Prominently displayed is a red sign that reads \"USE WEST ENTRANCES OFF SPEEDWAY TO ENTER FOR EMERGENCY EXIT ONLY.\" This indicates that the entrance is restricted for emergency use, suggesting a level of caution or a temporary situation.\n\n3. **Interior Features**: Inside, the space appears well-lit and spacious. You can see a wide corridor leading further into the building, with smooth, polished floors. The walls are decorated with framed artwork, including a colorful painting of a landscape with mountains and cacti.\n\n4. **Plants**: There are potted plants placed strategically near the entrance, adding a touch of greenery to the otherwise modern and clean aesthetic.\n\n5. **Footwear**: In several frames, a person's foot is visible, wearing white sneakers. This suggests that someone is either approaching or preparing to enter the building.\n\n6. **Movement**: The camera captures slight movements, possibly indicating the person is adjusting their position or preparing to enter through the doors.\n\n7. **Flooring**: The entrance has a textured mat, likely designed to help with traction and cleanliness as people enter and exit.\n\n8. **Lighting**: The lighting is bright and inviting, contributing to a welcoming atmosphere despite the emergency exit signage.\n\nOverall, the video captures a moment of transition at a university building, highlighting both the architectural features and the presence of individuals navigating the space.\n\nAt time=2023-01-18 19:26:55, the robot was at an average position of [-109.361, 107.546, -3.978].The robot saw the following: The video captures a view from inside a building at the University of Texas at Austin, focusing on the entrance area. Here\u2019s a detailed description of what is visible:\n\n1. **Entrance Area**: The view is framed by a large glass door that opens into a well-lit corridor. A sign is prominently displayed, reading \"PARDON OUR APPEARANCE,\" indicating ongoing construction or renovations.\n\n2. **Flooring**: The floor is tiled with a light-colored material, providing a clean and modern look. A black mat is positioned at the entrance, likely to help keep the area clean.\n\n3. **Wall Features**: The walls are adorned with framed artwork, including geometric patterns and abstract designs. This adds a touch of creativity and visual interest to the otherwise simple decor.\n\n4. **Seating**: A long, dark bench is visible against the wall, providing a place for people to sit and wait. Its minimalist design complements the overall aesthetic of the space.\n\n5. **Lighting**: The ceiling is equipped with recessed lighting, creating a bright and inviting atmosphere. The lights are evenly distributed, enhancing visibility throughout the corridor.\n\n6. **Plants**: Potted plants are placed strategically in the corners, adding a touch of greenery and life to the environment. This contributes to a welcoming ambiance.\n\n7. **Corridor**: The corridor extends into the background, leading to another area of the building. It appears spacious and well-maintained, with doors on either side, suggesting access to various rooms or offices.\n\n8. **People**: In the distance, a few individuals can be seen walking along the corridor, indicating that the space is actively used by students or staff.\n\nOverall, the scene conveys a blend of functionality and aesthetic appeal, typical of a university setting, with an emphasis on cleanliness and a welcoming atmosphere.\n\n",
+            "answers": {
+                "text": [
+                    "1.35 minutes"
+                ],
+                "duration": 1.35
+            }
+        },
+        {
+            "id": "4_LONG_af289cc9-dbcc-451c-89fb-9192a8e6aecb",
+            "length_category": "LONG",
+            "length": 592.3601064682007,
+            "start_time": 1674087808.6151688,
+            "end_time": 1674088400.9752753,
+            "file_info": {
+                "qa_start_filename": "1674087807.164999.pkl",
+                "qa_end_filename": "1674088399.57408.pkl",
+                "context_start_filename": "1674088524.974276.pkl",
+                "context_end_filename": "1674088525.074129.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:28. The current time is 2023-01-18 19:33:20 and you are located at [-61.29, 62.57, -2.56]. \n where I can find the horse sculpture?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:35:26, the robot was at an average position of [-0.053, -0.052, 0.005].The robot saw the following: In the video, the scene is set on a university campus at night. The lighting is dim, with a few bright lights illuminating the area. \n\n1. **People**: There are no visible people in the frames, contributing to a quiet and somewhat deserted atmosphere.\n\n2. **Objects**: \n   - A black vehicle is parked on the left side of the frame, partially on a gravel surface and partially on a concrete path. \n   - To the right, there is a bike rack, which is empty, suggesting that no bicycles are currently parked there.\n   - A small building or structure is visible in the background, with a door and an air conditioning unit mounted on the wall.\n\n3. **Environmental Features**: \n   - The ground is made of concrete, appearing smooth and well-maintained, with a slight incline leading towards the building.\n   - There are manhole covers embedded in the pavement, indicating utility access beneath the surface.\n   - The walls of the building are made of brick, giving a classic university feel, and there are several windows that reflect the light from the nearby lamps.\n\n4. **Lighting**: \n   - The area is illuminated by a few overhead lights, casting soft shadows and creating a contrast between the illuminated and darker areas.\n   - The overall ambiance feels calm and serene, typical of a university setting at night.\n\n5. **Activities/Events**: \n   - There are no visible activities or events occurring in this moment, enhancing the sense of solitude.\n\nOverall, the scene captures a quiet, nighttime atmosphere on a university campus, with a focus on the structural elements and the stillness of the environment.\n\n",
+            "answers": {
+                "position": [
+                    -0.05251300000000002,
+                    -0.05220200000000002,
+                    0.005454999999999997
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_01711b96-6884-44a7-8883-0f73b1b4a3bd",
+            "length_category": "LONG",
+            "length": 608.057137966156,
+            "start_time": 1674087829.617164,
+            "end_time": 1674088437.6743019,
+            "file_info": {
+                "qa_start_filename": "1674087828.167009.pkl",
+                "qa_end_filename": "1674088436.273592.pkl",
+                "context_start_filename": "1674088130.084286.pkl",
+                "context_end_filename": "1674088130.182065.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:49. The current time is 2023-01-18 19:33:57 and you are located at [-45.6, 39.5, -2.3]. \n Can you take me to the second floor?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:28:51, the robot was at an average position of [-105.236, 197.46, -2.258].The robot saw the following: In the video, you are exploring a university campus, specifically an indoor area that appears to be a modern building. Here\u2019s a detailed breakdown of what you might see:\n\n1. **Flooring and Environment**:\n   - The floor is polished and shiny, likely made of a smooth material like tile or polished concrete. It reflects light, creating a bright atmosphere.\n   - The lighting is bright and even, with overhead lights illuminating the space.\n\n2. **Caution Sign**:\n   - A bright yellow \"Caution: Wet Floor\" sign is prominently placed on the floor, indicating recent cleaning or a spill. This draws attention and suggests that care should be taken while walking.\n\n3. **Walls and Structure**:\n   - The walls are likely made of glass or have large windows, allowing natural light to flood in. This creates an open and airy feel.\n   - There are modern architectural features, including a large, wooden staircase that adds a contemporary touch to the space.\n\n4. **Seating Areas**:\n   - There are several seating arrangements, including modern chairs and tables. Some chairs are designed with a sleek, minimalist aesthetic.\n   - A few individuals are seated, possibly studying or relaxing. Their presence adds life to the otherwise quiet environment.\n\n5. **Stairs**:\n   - A staircase leads to an upper level, with a railing for safety. The design is open, allowing visibility to the area above.\n   - The stairs are well-lit, making them easy to navigate.\n\n6. **Activity and People**:\n   - The area appears to be relatively quiet, with only a few people visible. They seem engaged in their own activities, perhaps studying or using their devices.\n   - The overall atmosphere is calm, suggesting it might be a study area or lounge.\n\n7. **Decor and Ambiance**:\n   - The decor is modern and functional, with a focus on clean lines and simplicity.\n   - The combination of natural materials (like wood) and glass creates a warm yet contemporary ambiance.\n\nOverall, the scene captures a blend of functionality and modern design, typical of a university setting, where students can study, collaborate, or relax in a comfortable environment.\n\n",
+            "answers": {
+                "position": [
+                    -105.23614958064516,
+                    197.45972793548384,
+                    -2.2582235806451614
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_34badd30-a686-4f85-8f87-0c82e97a2c51",
+            "length_category": "LONG",
+            "length": 666.9685881137848,
+            "start_time": 1674087721.6069055,
+            "end_time": 1674088388.5754936,
+            "file_info": {
+                "qa_start_filename": "1674087720.156741.pkl",
+                "qa_end_filename": "1674088387.174848.pkl",
+                "context_start_filename": "1674087738.158456.pkl",
+                "context_end_filename": "1674087738.258445.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:01. The current time is 2023-01-18 19:33:08 and you are located at [-59.76, 74.27, -2.44]. \n Can you go back to the position where you made the first turn",
+            "type": "position",
+            "context": "At time=2023-01-18 19:22:19, the robot was at an average position of [-2.486, 27.529, -0.519].The robot saw the following: In the video, the scene unfolds on a university campus during nighttime. Here\u2019s a detailed breakdown of what can be observed:\n\n1. **Lighting and Atmosphere**:\n   - The area is dimly lit, with a few artificial lights illuminating the surroundings. The glow from the lights creates a somewhat eerie yet calm atmosphere typical of late-night settings.\n\n2. **Buildings**:\n   - The backdrop features a modern building with a combination of brick and concrete materials. The structure has large windows, some of which reflect the light, indicating that there might be activity inside.\n\n3. **Ground and Pathway**:\n   - The ground is paved, showing a smooth surface with a slight incline. There are markings on the ground, including a red line that likely indicates a no-parking zone or a pathway.\n\n4. **People**:\n   - A single individual is seen walking in the scene. They are dressed in dark clothing and appear to be carrying a bag or backpack. The person walks with a purposeful stride, suggesting they are either heading to or coming from a specific location.\n\n5. **Environmental Features**:\n   - There are several concrete barriers or planters positioned along the pathway, possibly to direct traffic or separate pedestrian areas from vehicle access.\n   - A few benches are visible, likely intended for students or visitors to sit and relax.\n\n6. **Activity**:\n   - The area seems quiet, with no other people visible in the immediate vicinity. The stillness of the night adds to the sense of solitude.\n\n7. **Additional Details**:\n   - Near the entrance of the building, there is a loading dock or service area, indicated by the open door and the presence of a trash bin. This suggests that the building might have operational functions beyond just classrooms or offices.\n\nOverall, the scene captures a quiet moment on a university campus, highlighting the blend of architecture, lighting, and human presence in a nighttime setting.\n\n",
+            "answers": {
+                "position": [
+                    -2.4864012333333334,
+                    27.5287026,
+                    -0.5194501
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_d0815d48-8e28-417e-90f0-997e708e73b4",
+            "length_category": "LONG",
+            "length": 543.1111381053925,
+            "start_time": 1674087802.614598,
+            "end_time": 1674088345.7257361,
+            "file_info": {
+                "qa_start_filename": "1674087801.164428.pkl",
+                "qa_end_filename": "1674088344.374796.pkl",
+                "context_start_filename": "1674087876.171562.pkl",
+                "context_end_filename": "1674087876.27157.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:22. The current time is 2023-01-18 19:32:25 and you are located at [-56.99, 104.73, -2.19]. \n Where I can call the police?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:24:37, the robot was at an average position of [-67.787, 90.514, -2.352].The robot saw the following: In the video, you find yourself on a university campus at night. The scene is illuminated by streetlights, casting a warm glow on the pavement. \n\n1. **People**: A few individuals can be seen walking along the sidewalk. They appear to be students, possibly heading to or from classes or social activities. Some are in casual attire, while others may be dressed more formally.\n\n2. **Objects**: Prominently featured is a bright yellow \"Police Help\" call box, positioned on the right side of the frame. This adds a sense of security to the environment. Streetlights line the pathway, providing visibility and creating a welcoming atmosphere.\n\n3. **Environmental Features**: The campus is lined with trees, their leaves rustling gently in the night breeze. The ground is covered with fallen leaves, indicating the season. The buildings on the left side are well-lit, suggesting activity inside, perhaps in classrooms or study areas.\n\n4. **Activities/Events**: While the scene is relatively quiet, the presence of people suggests a vibrant campus life. The occasional sound of footsteps and distant conversations can be inferred, contributing to the lively yet serene ambiance.\n\n5. **Interesting Details**: The contrast between the illuminated areas and the shadows creates a dynamic visual effect. The pathway is smooth and well-maintained, indicating a well-cared-for campus. The overall atmosphere feels safe and inviting, typical of a university setting at night. \n\nThis detailed observation captures the essence of a university campus after dark, highlighting both its functionality and its aesthetic appeal.\n\n",
+            "answers": {
+                "position": [
+                    -67.78721886666668,
+                    90.51400103333334,
+                    -2.3522162333333325
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_ec69301d-4be7-41c7-a516-249fc6d7a0a8",
+            "length_category": "LONG",
+            "length": 452.688360452652,
+            "start_time": 1674088049.1853735,
+            "end_time": 1674088501.873734,
+            "file_info": {
+                "qa_start_filename": "1674088047.687903.pkl",
+                "qa_end_filename": "1674088500.473443.pkl",
+                "context_start_filename": "1674088524.974276.pkl",
+                "context_end_filename": "1674088525.074129.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:27:29. The current time is 2023-01-18 19:35:01 and you are located at [0.46, 14.2, -0.31]. \n What the color of the hat is for the guy who help you to open the door when you leave the building?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:35:26, the robot was at an average position of [-0.053, -0.052, 0.005].The robot saw the following: In the video, the scene is set on a university campus at night. The lighting is dim, with a few bright lights illuminating the area. \n\n1. **People**: There are no visible people in the frames, contributing to a quiet and somewhat deserted atmosphere.\n\n2. **Objects**: \n   - A black vehicle is parked on the left side of the frame, partially on a gravel surface and partially on a concrete path. \n   - To the right, there is a bike rack, which is empty, suggesting that no bicycles are currently parked there.\n   - A small building or structure is visible in the background, with a door and an air conditioning unit mounted on the wall.\n\n3. **Environmental Features**: \n   - The ground is made of concrete, appearing smooth and well-maintained, with a slight incline leading towards the building.\n   - There are manhole covers embedded in the pavement, indicating utility access beneath the surface.\n   - The walls of the building are made of brick, giving a classic university feel, and there are several windows that reflect the light from the nearby lamps.\n\n4. **Lighting**: \n   - The area is illuminated by a few overhead lights, casting soft shadows and creating a contrast between the illuminated and darker areas.\n   - The overall ambiance feels calm and serene, typical of a university setting at night.\n\n5. **Activities/Events**: \n   - There are no visible activities or events occurring in this moment, enhancing the sense of solitude.\n\nOverall, the scene captures a quiet, nighttime atmosphere on a university campus, with a focus on the structural elements and the stillness of the environment.\n\n",
+            "answers": {
+                "text": [
+                    "it was beige"
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_49ac535e-3226-4b09-a4f6-08af863a916d",
+            "length_category": "LONG",
+            "length": 592.6583652496338,
+            "start_time": 1674087820.61631,
+            "end_time": 1674088413.2746751,
+            "file_info": {
+                "qa_start_filename": "1674087819.166142.pkl",
+                "qa_end_filename": "1674088411.873912.pkl",
+                "context_start_filename": "1674087858.169847.pkl",
+                "context_end_filename": "1674087918.275551.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:40. The current time is 2023-01-18 19:33:33 and you are located at [-61.17, 51.03, -2.64]. \n How many turns did you make before you got into the building?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:24:19, the robot was at an average position of [-56.569, 89.394, -2.198].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The pathway is made of herringbone-patterned bricks, creating a visually appealing surface. \n\n### People:\n- A few individuals are walking along the path, some in pairs and others alone. Their silhouettes are visible against the soft glow of the lights.\n- There\u2019s a person in the foreground, possibly wearing a light-colored shirt, walking towards the camera.\n\n### Objects:\n- Streetlights line the pathway, casting a warm light that creates a cozy atmosphere.\n- On the right side, there are neatly trimmed bushes and small plants, adding greenery to the scene.\n- A lamppost stands prominently, with a decorative design that complements the campus aesthetic.\n\n### Environmental Features:\n- The trees lining the pathway are large, their branches creating a canopy overhead, which adds to the nighttime ambiance.\n- The background features buildings with illuminated windows, suggesting activity inside, possibly in classrooms or dorms.\n\n### Activities:\n- The atmosphere feels calm and serene, typical of a university setting at night. The people appear to be leisurely strolling, perhaps after a long day of classes or studying.\n\n### Interesting Details:\n- The contrast between the warm light of the streetlamps and the cool night sky creates a visually striking scene.\n- The sound of footsteps on the brick path might be faintly audible, enhancing the peacefulness of the environment.\n\nOverall, the scene captures a tranquil moment on a university campus, blending nature with architecture and human activity.\n\nAt time=2023-01-18 19:25:19, the robot was at an average position of [-107.771, 92.34, -3.855].The robot saw the following: In the video, the scene unfolds on a university campus during nighttime. Here\u2019s a detailed breakdown of what can be observed:\n\n1. **Lighting and Atmosphere**: The environment is dimly lit, with streetlights casting a soft glow on the sidewalk and surrounding areas. The overall ambiance feels quiet and somewhat serene, typical of a university campus at night.\n\n2. **Sidewalk and Pathway**: The sidewalk is wide and appears well-maintained, with a smooth concrete surface. There are visible shadows cast by the streetlights and nearby trees, adding depth to the scene.\n\n3. **Buildings**: On the left side, there is a modern building with large windows that reflect the light. The architecture seems contemporary, suggesting it might be a newer facility on campus. The right side features another building with a more traditional design, characterized by its stone facade and large windows.\n\n4. **Vegetation**: A large tree is prominently positioned on the right side of the frame, its branches extending over the sidewalk. The tree adds a natural element to the urban setting, and the ground beneath it is grassy, indicating a well-kept landscape.\n\n5. **Traffic and Movement**: In the background, a vehicle can be seen moving along the road, its headlights illuminating the area briefly. The presence of the vehicle suggests that the campus is accessible by car, and it may indicate activity or events happening nearby.\n\n6. **Surrounding Features**: There are manhole covers visible on the road, and a few benches or seating areas might be present, although they are not clearly defined in the low light. The overall layout suggests a functional and inviting space for students and visitors.\n\n7. **Events and Activities**: While there are no people visible in the immediate vicinity, the quietness hints at a potential for late-night study sessions or social gatherings that often occur on campus.\n\nOverall, the scene captures a tranquil moment on a university campus, blending architectural elements with natural features, all under the soft glow of nighttime lighting.\n\n",
+            "answers": {
+                "text": [
+                    "I made 2 turns"
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_fa7d3a10-6441-4acf-8007-e90645793869",
+            "length_category": "LONG",
+            "length": 677.1135005950928,
+            "start_time": 1674087766.61118,
+            "end_time": 1674088443.7246807,
+            "file_info": {
+                "qa_start_filename": "1674087765.161018.pkl",
+                "qa_end_filename": "1674088442.377114.pkl",
+                "context_start_filename": "1674088023.285523.pkl",
+                "context_end_filename": "1674088023.385532.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:46. The current time is 2023-01-18 19:34:03 and you are located at [-39.93, 38.58, -2.08]. \n Do you see a human picture?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:27:04, the robot was at an average position of [-108.828, 111.886, -3.883].The robot saw the following: In the video, you are navigating through a university campus corridor. Here\u2019s a detailed description of what you might observe:\n\n1. **Flooring**: The floor is tiled with large, light-colored tiles that create a clean and spacious appearance. The tiles are arranged in a grid pattern, enhancing the orderly feel of the corridor.\n\n2. **Walls and Decor**: The walls are painted in a soft, neutral color, likely beige or light cream, which contributes to a warm atmosphere. There are framed artworks on the walls, including a geometric piece that adds a touch of modernity. \n\n3. **Lighting**: The corridor is well-lit with fluorescent ceiling lights that provide bright, even illumination, making the space feel inviting and open.\n\n4. **Furniture**: On one side of the corridor, there is a bench, possibly for students to sit and wait. The bench is simple, matching the overall aesthetic of the space.\n\n5. **Plants**: A potted plant is positioned near the wall, adding a touch of greenery and life to the otherwise neutral decor. The plant appears healthy and well-maintained.\n\n6. **Portraits**: There are framed portraits on the walls, likely of notable figures associated with the university, which adds a sense of history and tradition to the environment.\n\n7. **People**: In the distance, you can see a few individuals walking through the corridor. They appear to be students or faculty, engaged in their own activities, perhaps heading to classes or meetings.\n\n8. **Exits and Signage**: There is an exit sign visible, indicating the way out of the building. Additionally, there are signs on the walls that likely denote different departments or offices, guiding visitors through the campus.\n\n9. **Overall Atmosphere**: The corridor feels busy yet organized, typical of a university setting where students and staff are moving about, engaged in academic life.\n\nThis detailed observation captures the essence of the university environment as you wander through the corridor.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_b66cb337-b0a3-4030-b992-b60437a35fcd",
+            "length_category": "LONG",
+            "length": 704.6142423152924,
+            "start_time": 1674087757.6103253,
+            "end_time": 1674088462.2245677,
+            "file_info": {
+                "qa_start_filename": "1674087756.16017.pkl",
+                "qa_end_filename": "1674088460.873317.pkl",
+                "context_start_filename": "1674088023.285523.pkl",
+                "context_end_filename": "1674088023.385532.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:37. The current time is 2023-01-18 19:34:22 and you are located at [-22.38, 36.79, -1.53]. \n Where I can find a human picture?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:27:04, the robot was at an average position of [-108.828, 111.886, -3.883].The robot saw the following: In the video, you are navigating through a university campus corridor. Here\u2019s a detailed description of what you might observe:\n\n1. **Flooring**: The floor is tiled with large, light-colored tiles that create a clean and spacious appearance. The tiles are arranged in a grid pattern, enhancing the orderly feel of the corridor.\n\n2. **Walls and Decor**: The walls are painted in a soft, neutral color, likely beige or light cream, which contributes to a warm atmosphere. There are framed artworks on the walls, including a geometric piece that adds a touch of modernity. \n\n3. **Lighting**: The corridor is well-lit with fluorescent ceiling lights that provide bright, even illumination, making the space feel inviting and open.\n\n4. **Furniture**: On one side of the corridor, there is a bench, possibly for students to sit and wait. The bench is simple, matching the overall aesthetic of the space.\n\n5. **Plants**: A potted plant is positioned near the wall, adding a touch of greenery and life to the otherwise neutral decor. The plant appears healthy and well-maintained.\n\n6. **Portraits**: There are framed portraits on the walls, likely of notable figures associated with the university, which adds a sense of history and tradition to the environment.\n\n7. **People**: In the distance, you can see a few individuals walking through the corridor. They appear to be students or faculty, engaged in their own activities, perhaps heading to classes or meetings.\n\n8. **Exits and Signage**: There is an exit sign visible, indicating the way out of the building. Additionally, there are signs on the walls that likely denote different departments or offices, guiding visitors through the campus.\n\n9. **Overall Atmosphere**: The corridor feels busy yet organized, typical of a university setting where students and staff are moving about, engaged in academic life.\n\nThis detailed observation captures the essence of the university environment as you wander through the corridor.\n\n",
+            "answers": {
+                "position": [
+                    -108.82787009677422,
+                    111.88641025806453,
+                    -3.8825237419354846
+                ]
+            }
+        },
+        {
+            "id": "4_LONG_3b1c06b9-e6da-4f72-abaf-fd56b8668712",
+            "length_category": "LONG",
+            "length": 516.1083114147186,
+            "start_time": 1674087832.617449,
+            "end_time": 1674088348.7257605,
+            "file_info": {
+                "qa_start_filename": "1674087831.167285.pkl",
+                "qa_end_filename": "1674088347.37712.pkl",
+                "context_start_filename": "1674088063.086021.pkl",
+                "context_end_filename": "1674088063.184899.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:52. The current time is 2023-01-18 19:32:28 and you are located at [-57.25, 101.88, -2.22]. \n Where I can throw away a recyclable box in the building?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:27:44, the robot was at an average position of [-105.331, 149.298, -3.102].The robot saw the following: In the video, you are observing a university campus corridor. Here\u2019s a detailed description of what you might see:\n\n1. **Flooring**: The floor is tiled with large, light-colored tiles arranged in a grid pattern. The tiles have a subtle texture, giving them a clean and polished appearance.\n\n2. **Walls and Lighting**: The walls are painted in a soft beige color, complemented by wooden trim along the edges. The corridor is well-lit with overhead lights, creating a bright and inviting atmosphere.\n\n3. **Doorway**: To the left, there is a wooden door with a sign indicating it is a restroom. The door is closed, and the handle is metallic.\n\n4. **Trash and Recycling Bins**: On the right side, there is a blue recycling bin and a metallic trash can. The recycling bin is clearly marked, indicating its purpose.\n\n5. **Seating Area**: Further down the corridor, you can see a seating area with several wooden chairs arranged around small tables. This area appears to be a space for students to relax or study.\n\n6. **Artwork**: In the distance, there is a colorful piece of artwork or sculpture displayed prominently, adding a touch of creativity to the environment. It seems to be a focal point of the corridor.\n\n7. **Elevator Access**: To the right, there are elevator doors, indicating easy access to different floors of the building.\n\n8. **Plants**: There are a couple of potted plants placed strategically, adding a bit of greenery and life to the otherwise neutral-toned corridor.\n\n9. **General Activity**: The corridor appears to be quiet, suggesting it might be early morning or late evening. There are no people visible in the immediate vicinity, contributing to a serene atmosphere.\n\nOverall, the scene conveys a modern and functional university environment, designed for both study and social interaction.\n\n",
+            "answers": {
+                "position": [
+                    -105.33146630000002,
+                    149.29831960000004,
+                    -3.1015823999999994
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_70ac1aef-f933-413a-8504-d2b943421766",
+            "length_category": "MEDIUM",
+            "length": 180.54433131217957,
+            "start_time": 1674088247.9301848,
+            "end_time": 1674088428.4745162,
+            "file_info": {
+                "qa_start_filename": "1674088246.478521.pkl",
+                "qa_end_filename": "1674088427.075092.pkl",
+                "context_start_filename": "1674088405.674227.pkl",
+                "context_end_filename": "1674088405.774175.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:30:47. The current time is 2023-01-18 19:33:48 and you are located at [-54.25, 41.19, -2.51]. \n Can I drive a car on this road?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:33:27, the robot was at an average position of [-61.396, 56.729, -2.601].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The ground is paved with a herringbone-patterned brick walkway, which adds a distinct texture to the scene. \n\n### People:\n- **Pedestrians**: Several people are walking along the path. One individual in a pink jacket is on the left, appearing to be checking their phone. Others are seen in groups, chatting and walking together, suggesting a lively atmosphere despite the late hour.\n- **Movement**: The pedestrians are moving at a casual pace, indicating a relaxed environment. Some appear to be students, likely returning from classes or social activities.\n\n### Objects:\n- **Streetlights**: The area is well-lit with multiple streetlights lining the walkway, casting a warm glow and creating shadows on the ground.\n- **Traffic Barriers**: Yellow bollards are placed along the path, likely to prevent vehicles from entering this pedestrian area. They stand out against the brick pavement.\n\n### Environmental Features:\n- **Surrounding Buildings**: On the left, there are buildings with windows that are illuminated, hinting at activity inside. The architecture appears modern, contributing to the campus vibe.\n- **Landscaping**: There are patches of greenery along the walkway, with trees and shrubs that add to the aesthetic appeal of the campus.\n\n### Events/Activities:\n- **Social Interaction**: The presence of groups suggests social interactions, possibly students discussing their day or planning for upcoming events.\n- **Nighttime Campus Life**: The scene captures the essence of campus life at night, where students gather and socialize, creating a vibrant community atmosphere.\n\nOverall, the video portrays a lively university campus scene, blending architectural beauty with the dynamic energy of student life.\n\n",
+            "answers": {
+                "text": [
+                    "No",
+                    "No"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_8d015656-fdb1-4aa6-8dcb-ee482d7d8683",
+            "length_category": "MEDIUM",
+            "length": 201.31836557388306,
+            "start_time": 1674087829.617164,
+            "end_time": 1674088030.9355295,
+            "file_info": {
+                "qa_start_filename": "1674087828.167009.pkl",
+                "qa_end_filename": "1674088029.5862.pkl",
+                "context_start_filename": "1674087876.171562.pkl",
+                "context_end_filename": "1674087876.27157.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:49. The current time is 2023-01-18 19:27:10 and you are located at [-107.1, 117.47, -3.76]. \n What is the color of the car that passed the gate?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:24:37, the robot was at an average position of [-67.787, 90.514, -2.352].The robot saw the following: In the video, you find yourself on a university campus at night. The scene is illuminated by streetlights, casting a warm glow on the pavement. \n\n1. **People**: A few individuals can be seen walking along the sidewalk. They appear to be students, possibly heading to or from classes or social activities. Some are in casual attire, while others may be dressed more formally.\n\n2. **Objects**: Prominently featured is a bright yellow \"Police Help\" call box, positioned on the right side of the frame. This adds a sense of security to the environment. Streetlights line the pathway, providing visibility and creating a welcoming atmosphere.\n\n3. **Environmental Features**: The campus is lined with trees, their leaves rustling gently in the night breeze. The ground is covered with fallen leaves, indicating the season. The buildings on the left side are well-lit, suggesting activity inside, perhaps in classrooms or study areas.\n\n4. **Activities/Events**: While the scene is relatively quiet, the presence of people suggests a vibrant campus life. The occasional sound of footsteps and distant conversations can be inferred, contributing to the lively yet serene ambiance.\n\n5. **Interesting Details**: The contrast between the illuminated areas and the shadows creates a dynamic visual effect. The pathway is smooth and well-maintained, indicating a well-cared-for campus. The overall atmosphere feels safe and inviting, typical of a university setting at night. \n\nThis detailed observation captures the essence of a university campus after dark, highlighting both its functionality and its aesthetic appeal.\n\n",
+            "answers": {
+                "text": [
+                    "It was a white car"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_56b27d99-f436-461d-bc4e-aa33bc72672d",
+            "length_category": "MEDIUM",
+            "length": 226.34633779525757,
+            "start_time": 1674088284.7272182,
+            "end_time": 1674088511.073556,
+            "file_info": {
+                "qa_start_filename": "1674088283.276343.pkl",
+                "qa_end_filename": "1674088509.672644.pkl",
+                "context_start_filename": "1674088371.677576.pkl",
+                "context_end_filename": "1674088371.774745.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:31:24. The current time is 2023-01-18 19:35:11 and you are located at [1.06, 5.59, -0.21]. \n Can you take me to the \"tree\" sculpture?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:32:53, the robot was at an average position of [-56.962, 88.372, -2.247].The robot saw the following: In the video, you find yourself on a university campus at night, surrounded by a vibrant atmosphere. \n\n1. **People**: A small group of students is walking along the path. They appear relaxed and engaged in conversation, some wearing casual clothing suitable for a warm evening. A couple of individuals are carrying backpacks, suggesting they might have just finished classes or are heading to a social gathering.\n\n2. **Objects**: The ground is made of distinctive herringbone-patterned bricks, giving the area a unique aesthetic. There are several street lamps illuminating the path, casting a warm glow that enhances the nighttime ambiance. \n\n3. **Environmental Features**: On one side, there\u2019s a large, modern sculpture that stands out against the night sky. Its metallic structure reflects the light, adding an artistic touch to the environment. Surrounding greenery, including trees and shrubs, adds a natural element to the urban setting.\n\n4. **Activities**: The students seem to be enjoying their time, possibly discussing their day or planning for the future. The atmosphere is lively yet calm, typical of a university setting where students gather after hours.\n\n5. **Other Details**: The background features several buildings, some with lights on, indicating activity inside. The overall scene conveys a sense of community and the vibrant life of a university campus at night. \n\nThis combination of people, objects, and environmental features creates a lively and inviting atmosphere, characteristic of a university setting.\n\n",
+            "answers": {
+                "position": [
+                    -56.96152858064515,
+                    88.37231538709679,
+                    -2.2466221935483874
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_1bc9c977-f89f-4138-83c8-3c093312d135",
+            "length_category": "MEDIUM",
+            "length": 281.3926408290863,
+            "start_time": 1674088202.131568,
+            "end_time": 1674088483.5242088,
+            "file_info": {
+                "qa_start_filename": "1674088200.68085.pkl",
+                "qa_end_filename": "1674088482.173211.pkl",
+                "context_start_filename": "1674088206.780072.pkl",
+                "context_end_filename": "1674088206.880144.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:30:02. The current time is 2023-01-18 19:34:43 and you are located at [-4.72, 30.42, -0.65]. \n Can I ride a bike on the yellow road you saw?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:30:08, the robot was at an average position of [-62.094, 194.381, -1.033].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The ground is made of patterned wooden planks arranged in a herringbone style, creating a visually interesting surface.\n\n1. **People**: \n   - A cyclist is riding past on the left side of the frame, wearing a helmet and casual clothing. They appear to be moving quickly.\n   - On the right, a pedestrian is walking, wearing a blue shirt and shorts, with a backpack slung over one shoulder. They seem to be casually strolling, possibly heading towards a nearby building.\n\n2. **Objects**: \n   - The cyclist's bike is a standard model, with visible wheels and a frame that suggests it's designed for casual riding.\n   - Streetlights are positioned along the pathway, casting a warm glow on the surroundings, enhancing visibility and creating a cozy atmosphere.\n\n3. **Environmental Features**: \n   - In the background, there are buildings with large windows, some of which are lit up, indicating activity inside. This adds to the lively campus vibe.\n   - There are trees and landscaped areas, with some greenery visible, contributing to the aesthetic of the campus.\n\n4. **Activities**: \n   - The cyclist and pedestrian are engaged in their respective activities, showcasing a typical evening scene on a university campus.\n   - In the background, a few people are seated on steps, possibly chatting or studying, adding to the sense of community.\n\n5. **Interesting Details**: \n   - The lighting creates shadows and highlights, enhancing the textures of the wooden planks and the surrounding environment.\n   - The overall ambiance is calm yet active, typical of a university setting where students are likely moving between classes or socializing.\n\nThis scene encapsulates the vibrant life of a university campus, even at night, with its mix of movement, light, and community interaction.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_e06f4554-f59f-44c1-88ef-a2f543a16fa7",
+            "length_category": "MEDIUM",
+            "length": 403.1628346443176,
+            "start_time": 1674087835.6177332,
+            "end_time": 1674088238.780568,
+            "file_info": {
+                "qa_start_filename": "1674087834.16758.pkl",
+                "qa_end_filename": "1674088237.380503.pkl",
+                "context_start_filename": "1674088111.885861.pkl",
+                "context_end_filename": "1674088111.986129.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:55. The current time is 2023-01-18 19:30:38 and you are located at [-53.58, 186.48, -1.13]. \n Did you see red sofa?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:28:33, the robot was at an average position of [-107.147, 195.577, -2.322].The robot saw the following: In the video, you find yourself in a modern university campus building, characterized by sleek architectural elements and a spacious interior. \n\n1. **Flooring and Lighting**: The floor is polished and shiny, reflecting the overhead lights, which create a bright and inviting atmosphere. The lighting is bright yet soft, enhancing the contemporary feel of the space.\n\n2. **Seating Areas**: To the left, there are long, red benches that provide informal seating. They appear comfortable and are arranged in a way that encourages social interaction.\n\n3. **People**: \n   - A few individuals are walking around, some in casual attire, suggesting they might be students. \n   - In the foreground, a small group of people is seated at a table, engaged in conversation or studying. They have laptops and books spread out, indicating a collaborative work session.\n   - Another person is standing nearby, possibly waiting for someone or looking at their phone.\n\n4. **Environmental Features**: \n   - Large windows line the walls, allowing natural light to flood the space, which adds to the openness of the area.\n   - The ceiling features wooden panels that add warmth and texture to the otherwise modern design.\n\n5. **Activities**: The atmosphere is lively yet calm, with people engaged in various activities\u2014some studying, others socializing. The overall vibe suggests a hub of academic life, where collaboration and learning are encouraged.\n\n6. **Furniture**: In addition to the benches, there are metal chairs and tables scattered throughout, providing flexible seating options for both individual and group work.\n\nOverall, the scene captures a vibrant, modern educational environment, bustling with activity while maintaining a sense of calm conducive to studying and collaboration.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_bb698273-f008-4d31-863f-3bd1758b80c2",
+            "length_category": "MEDIUM",
+            "length": 183.5455093383789,
+            "start_time": 1674088272.5288265,
+            "end_time": 1674088456.0743358,
+            "file_info": {
+                "qa_start_filename": "1674088271.077376.pkl",
+                "qa_end_filename": "1674088454.676472.pkl",
+                "context_start_filename": "1674088338.1765.pkl",
+                "context_end_filename": "1674088338.274779.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:31:12. The current time is 2023-01-18 19:34:16 and you are located at [-28.22, 37.16, -1.69]. \n Did you see the police call pole?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:32:19, the robot was at an average position of [-56.59, 110.525, -2.125].The robot saw the following: In the video, you find yourself on a university campus at night, walking along a wide, well-paved pathway made of herringbone-patterned bricks. The pathway is illuminated by numerous street lamps, casting a warm glow that contrasts with the dark surroundings. \n\nTo your left, there are large trees with thick trunks, their leaves rustling gently in the night breeze. Some fallen leaves are scattered on the ground, adding a touch of autumn to the scene. \n\nIn the distance, you can see a striking piece of modern art, which consists of metallic shapes that reflect the light, creating an intriguing focal point. \n\nAs you continue walking, you notice a few people in the distance. Some are strolling leisurely, while others appear to be engaged in conversation. A couple of individuals are riding bicycles, moving smoothly along the path. \n\nThe atmosphere is calm and serene, with the sounds of footsteps and soft chatter blending into the night. The buildings lining the pathway are mostly dark, but some windows are lit, hinting at late-night study sessions or activities inside. \n\nOverall, the scene captures a peaceful yet vibrant university environment, alive with subtle activity even in the late hours.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_af9a40ef-a932-4506-a299-51d08098c035",
+            "length_category": "MEDIUM",
+            "length": 242.2585768699646,
+            "start_time": 1674087904.6242914,
+            "end_time": 1674088146.8828683,
+            "file_info": {
+                "qa_start_filename": "1674087903.174124.pkl",
+                "qa_end_filename": "1674088145.48375.pkl",
+                "context_start_filename": "1674087900.173848.pkl",
+                "context_end_filename": "1674087918.275551.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:25:04. The current time is 2023-01-18 19:29:06 and you are located at [-97.37, 200.91, -2.09]. \n How many cars did you see that passed the gate?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:25:01, the robot was at an average position of [-90.717, 91.424, -3.235].The robot saw the following: In the video, you see a university campus at night. The scene is illuminated by streetlights, casting a warm glow on the surroundings. \n\n1. **People**: A lone individual is walking along the sidewalk, dressed in casual attire. They appear to be moving towards the camera, possibly heading to or from a building.\n\n2. **Objects**: The sidewalk is clear, with a few scattered leaves, indicating the season. There are bicycles parked along the side of the building, suggesting a bike-friendly campus.\n\n3. **Environmental Features**: The campus buildings are modern, with large windows reflecting the light. Trees line the walkway, their branches creating a natural canopy. The ground is paved, and the sidewalk is well-maintained.\n\n4. **Lighting**: The streetlights provide a soft illumination, enhancing the nighttime atmosphere. The light creates shadows and highlights, adding depth to the scene.\n\n5. **Activities**: The area seems quiet, typical of a university at night. There are no visible events or large groups of people, contributing to a serene ambiance.\n\nOverall, the scene captures a peaceful moment on a university campus, highlighting the blend of nature and architecture under the night sky.\n\nAt time=2023-01-18 19:25:19, the robot was at an average position of [-107.771, 92.34, -3.855].The robot saw the following: In the video, the scene unfolds on a university campus during nighttime. Here\u2019s a detailed breakdown of what can be observed:\n\n1. **Lighting and Atmosphere**: The environment is dimly lit, with streetlights casting a soft glow on the sidewalk and surrounding areas. The overall ambiance feels quiet and somewhat serene, typical of a university campus at night.\n\n2. **Sidewalk and Pathway**: The sidewalk is wide and appears well-maintained, with a smooth concrete surface. There are visible shadows cast by the streetlights and nearby trees, adding depth to the scene.\n\n3. **Buildings**: On the left side, there is a modern building with large windows that reflect the light. The architecture seems contemporary, suggesting it might be a newer facility on campus. The right side features another building with a more traditional design, characterized by its stone facade and large windows.\n\n4. **Vegetation**: A large tree is prominently positioned on the right side of the frame, its branches extending over the sidewalk. The tree adds a natural element to the urban setting, and the ground beneath it is grassy, indicating a well-kept landscape.\n\n5. **Traffic and Movement**: In the background, a vehicle can be seen moving along the road, its headlights illuminating the area briefly. The presence of the vehicle suggests that the campus is accessible by car, and it may indicate activity or events happening nearby.\n\n6. **Surrounding Features**: There are manhole covers visible on the road, and a few benches or seating areas might be present, although they are not clearly defined in the low light. The overall layout suggests a functional and inviting space for students and visitors.\n\n7. **Events and Activities**: While there are no people visible in the immediate vicinity, the quietness hints at a potential for late-night study sessions or social gatherings that often occur on campus.\n\nOverall, the scene captures a tranquil moment on a university campus, blending architectural elements with natural features, all under the soft glow of nighttime lighting.\n\n",
+            "answers": {
+                "text": [
+                    "I didn't see any car passing the gate"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_8c676447-0458-486c-8c4a-9803fbfe234b",
+            "length_category": "MEDIUM",
+            "length": 312.060617685318,
+            "start_time": 1674087868.620869,
+            "end_time": 1674088180.6814866,
+            "file_info": {
+                "qa_start_filename": "1674087867.170714.pkl",
+                "qa_end_filename": "1674088179.282355.pkl",
+                "context_start_filename": "1674088148.483786.pkl",
+                "context_end_filename": "1674088160.881587.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:24:28. The current time is 2023-01-18 19:29:40 and you are located at [-84.0, 200.7, -2.1]. \n How many door did they open for letting you out?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:29:09, the robot was at an average position of [-97.055, 200.907, -2.083].The robot saw the following: In the video, you see a university campus entrance featuring a modern glass revolving door. The setting appears to be well-lit, with bright overhead lights illuminating the space. \n\n### People\n- **Individual**: A young man stands inside the revolving door. He is wearing a brown hoodie, gray pants, and white sneakers. He has a backpack slung over one shoulder and is holding a device in his hands, possibly a phone or a gaming console. His cap is white, adding a casual touch to his outfit.\n\n### Objects\n- **Revolving Door**: The door is made of glass and metal, creating a sleek, contemporary look. It has a black mat at the entrance, likely to help with cleanliness.\n- **Flooring**: The floor is a light-colored material, possibly polished concrete or tile, which reflects the overhead lights, enhancing the brightness of the space.\n- **Seating**: To the right, there is a modern black chair, suggesting a waiting area or a place for students to relax.\n\n### Environmental Features\n- **Lighting**: The area is brightly lit with multiple overhead lights, contributing to a welcoming atmosphere. The glass walls allow for visibility into the outside environment, although it\u2019s unclear what lies beyond.\n- **Architecture**: The design is modern, with clean lines and a minimalist aesthetic, typical of contemporary university buildings.\n\n### Activities\n- The young man appears to be engaged with his device, possibly waiting for someone or checking messages. The setting suggests a busy campus environment, though no other people are visible in this particular frame.\n\n### Additional Details\n- The overall ambiance is calm, with a focus on the individual and the sleek design of the entrance. The glass structure allows for a sense of openness, making the space feel larger and more inviting.\n\nThis scene captures a moment of everyday life on a university campus, highlighting both the architectural features and the casual activities of students.\n\nAt time=2023-01-18 19:29:22, the robot was at an average position of [-93.92, 200.976, -2.054].The robot saw the following: In the video, you see a series of shots from inside a university building, focusing on a set of glass doors. The environment appears to be well-lit, suggesting it's evening or night. \n\n1. **First Impressions**: The doors are metallic with a glass panel, allowing a view of the outside. The ground outside is paved, and there are some benches or stone structures visible in the background.\n\n2. **People**: A person approaches the doors, wearing light-colored pants and a brown jacket. They have a backpack and appear to be holding a phone. Their movements suggest they are entering the building.\n\n3. **Objects**: The doors have a handle that the person uses to pull them open. The floor inside is a light-colored material, possibly tile, and there\u2019s a black mat at the entrance.\n\n4. **Environmental Features**: Outside, there are lampposts illuminating the area, creating a warm glow. The background shows more of the university's architecture, which looks modern and inviting.\n\n5. **Activities**: The individual is actively engaging with the door, indicating they are likely returning from an outing or heading to a study session.\n\n6. **Details**: The glass is slightly smudged, suggesting frequent use. The overall atmosphere feels calm and quiet, typical of a university setting at night.\n\nAs the person steps through the door, the focus shifts to their movement, emphasizing the transition from the outside world into the university environment.\n\n",
+            "answers": {
+                "text": [
+                    "They opened 2 doors"
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_c5fd604e-e482-49d8-bbbd-1ee6ab360c95",
+            "length_category": "MEDIUM",
+            "length": 334.1259255409241,
+            "start_time": 1674087742.6089005,
+            "end_time": 1674088076.734826,
+            "file_info": {
+                "qa_start_filename": "1674087741.158732.pkl",
+                "qa_end_filename": "1674088075.38397.pkl",
+                "context_start_filename": "1674087933.176981.pkl",
+                "context_end_filename": "1674087933.276989.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:22. The current time is 2023-01-18 19:27:56 and you are located at [-106.7, 160.82, -2.86]. \n Can you take me to the door where you enter the building?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:25:34, the robot was at an average position of [-109.395, 105.202, -4.074].The robot saw the following: In the video, you see a series of shots focused on the entrance of a university building. Here\u2019s a detailed breakdown of what is visible:\n\n1. **Entrance Area**: The camera is positioned low, looking up at the glass doors of the building. The entrance is framed by large glass panels, allowing a view into the interior.\n\n2. **Signage**: Prominently displayed is a red sign that reads \"USE WEST ENTRANCES OFF SPEEDWAY TO ENTER FOR EMERGENCY EXIT ONLY.\" This indicates that the entrance is restricted for emergency use, suggesting a level of caution or a temporary situation.\n\n3. **Interior Features**: Inside, the space appears well-lit and spacious. You can see a wide corridor leading further into the building, with smooth, polished floors. The walls are decorated with framed artwork, including a colorful painting of a landscape with mountains and cacti.\n\n4. **Plants**: There are potted plants placed strategically near the entrance, adding a touch of greenery to the otherwise modern and clean aesthetic.\n\n5. **Footwear**: In several frames, a person's foot is visible, wearing white sneakers. This suggests that someone is either approaching or preparing to enter the building.\n\n6. **Movement**: The camera captures slight movements, possibly indicating the person is adjusting their position or preparing to enter through the doors.\n\n7. **Flooring**: The entrance has a textured mat, likely designed to help with traction and cleanliness as people enter and exit.\n\n8. **Lighting**: The lighting is bright and inviting, contributing to a welcoming atmosphere despite the emergency exit signage.\n\nOverall, the video captures a moment of transition at a university building, highlighting both the architectural features and the presence of individuals navigating the space.\n\n",
+            "answers": {
+                "position": [
+                    -109.39480246666668,
+                    105.20177979999997,
+                    -4.0735607666666676
+                ]
+            }
+        },
+        {
+            "id": "4_MEDIUM_b2bdb736-4961-4672-8b74-9fc0e9d4be17",
+            "length_category": "MEDIUM",
+            "length": 214.141104221344,
+            "start_time": 1674088116.3844554,
+            "end_time": 1674088330.5255597,
+            "file_info": {
+                "qa_start_filename": "1674088114.886677.pkl",
+                "qa_end_filename": "1674088329.176819.pkl",
+                "context_start_filename": "1674088148.483786.pkl",
+                "context_end_filename": "1674088148.582357.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:28:36. The current time is 2023-01-18 19:32:10 and you are located at [-56.22, 119.24, -2.03]. \n Can you take me to the door where you leave the building?",
+            "type": "position",
+            "context": "At time=2023-01-18 19:29:09, the robot was at an average position of [-97.055, 200.907, -2.083].The robot saw the following: In the video, you see a university campus entrance featuring a modern glass revolving door. The setting appears to be well-lit, with bright overhead lights illuminating the space. \n\n### People\n- **Individual**: A young man stands inside the revolving door. He is wearing a brown hoodie, gray pants, and white sneakers. He has a backpack slung over one shoulder and is holding a device in his hands, possibly a phone or a gaming console. His cap is white, adding a casual touch to his outfit.\n\n### Objects\n- **Revolving Door**: The door is made of glass and metal, creating a sleek, contemporary look. It has a black mat at the entrance, likely to help with cleanliness.\n- **Flooring**: The floor is a light-colored material, possibly polished concrete or tile, which reflects the overhead lights, enhancing the brightness of the space.\n- **Seating**: To the right, there is a modern black chair, suggesting a waiting area or a place for students to relax.\n\n### Environmental Features\n- **Lighting**: The area is brightly lit with multiple overhead lights, contributing to a welcoming atmosphere. The glass walls allow for visibility into the outside environment, although it\u2019s unclear what lies beyond.\n- **Architecture**: The design is modern, with clean lines and a minimalist aesthetic, typical of contemporary university buildings.\n\n### Activities\n- The young man appears to be engaged with his device, possibly waiting for someone or checking messages. The setting suggests a busy campus environment, though no other people are visible in this particular frame.\n\n### Additional Details\n- The overall ambiance is calm, with a focus on the individual and the sleek design of the entrance. The glass structure allows for a sense of openness, making the space feel larger and more inviting.\n\nThis scene captures a moment of everyday life on a university campus, highlighting both the architectural features and the casual activities of students.\n\n",
+            "answers": {
+                "position": [
+                    -97.05506967741938,
+                    200.90684764516132,
+                    -2.0828049354838707
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_e4b510ec-3a23-49a7-bd77-259520223e03",
+            "length_category": "SHORT",
+            "length": 117.01111483573914,
+            "start_time": 1674087784.6128912,
+            "end_time": 1674087901.624006,
+            "file_info": {
+                "qa_start_filename": "1674087783.162733.pkl",
+                "qa_end_filename": "1674087900.273837.pkl",
+                "context_start_filename": "1674087801.164428.pkl",
+                "context_end_filename": "1674087858.269856.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:23:04. The current time is 2023-01-18 19:25:01 and you are located at [-90.72, 91.42, -3.23]. \n How many turns did you make?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:23:22, the robot was at an average position of [-57.783, 43.508, -2.521].The robot saw the following: In the video, you see a university campus at night, illuminated by street lamps. The ground is paved with a distinctive herringbone pattern, creating a visually appealing walkway. \n\n1. **People**: A person is prominently featured, walking while looking at their phone. They are wearing a blue shirt and tan pants, with black sneakers. In the background, there are a few other individuals, suggesting a moderate level of activity on campus despite the late hour.\n\n2. **Objects**: The scene includes several cylindrical bollards painted in yellow and silver, likely serving as barriers to prevent vehicle access. The lighting fixtures are classic street lamps, casting a warm glow that enhances the nighttime atmosphere.\n\n3. **Environmental Features**: Surrounding the walkway are trees, providing a natural element to the urban setting. The buildings in the background are modern, with large windows that reflect the light, indicating they might be in use or simply showcasing the campus's architecture.\n\n4. **Activities**: The main activity appears to be casual walking, with people seemingly moving between locations, perhaps heading to or from late-night study sessions or social gatherings.\n\n5. **Interesting Details**: The contrast between the warm light from the lamps and the cooler tones of the night sky creates a serene ambiance. The overall layout of the campus, with its open space and well-maintained pathways, suggests a welcoming environment for students and visitors alike. \n\nOverall, the scene captures a peaceful yet lively moment on a university campus at night.\n\nAt time=2023-01-18 19:24:19, the robot was at an average position of [-56.569, 89.394, -2.198].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The pathway is made of herringbone-patterned bricks, creating a visually appealing surface. \n\n### People:\n- A few individuals are walking along the path, some in pairs and others alone. Their silhouettes are visible against the soft glow of the lights.\n- There\u2019s a person in the foreground, possibly wearing a light-colored shirt, walking towards the camera.\n\n### Objects:\n- Streetlights line the pathway, casting a warm light that creates a cozy atmosphere.\n- On the right side, there are neatly trimmed bushes and small plants, adding greenery to the scene.\n- A lamppost stands prominently, with a decorative design that complements the campus aesthetic.\n\n### Environmental Features:\n- The trees lining the pathway are large, their branches creating a canopy overhead, which adds to the nighttime ambiance.\n- The background features buildings with illuminated windows, suggesting activity inside, possibly in classrooms or dorms.\n\n### Activities:\n- The atmosphere feels calm and serene, typical of a university setting at night. The people appear to be leisurely strolling, perhaps after a long day of classes or studying.\n\n### Interesting Details:\n- The contrast between the warm light of the streetlamps and the cool night sky creates a visually striking scene.\n- The sound of footsteps on the brick path might be faintly audible, enhancing the peacefulness of the environment.\n\nOverall, the scene captures a tranquil moment on a university campus, blending nature with architecture and human activity.\n\n",
+            "answers": {
+                "text": [
+                    "I made 2 turns"
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_ab9a4486-81ec-415e-8b81-7f85e922b788",
+            "length_category": "SHORT",
+            "length": 61.14795160293579,
+            "start_time": 1674088244.8798,
+            "end_time": 1674088306.0277517,
+            "file_info": {
+                "qa_start_filename": "1674088243.378855.pkl",
+                "qa_end_filename": "1674088304.676153.pkl",
+                "context_start_filename": "1674088246.478521.pkl",
+                "context_end_filename": "1674088246.57829.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:30:44. The current time is 2023-01-18 19:31:46 and you are located at [-55.13, 142.66, -1.87]. \n Did you see a bike?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:30:47, the robot was at an average position of [-53.719, 178.448, -1.324].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The pathway is made of herringbone-patterned bricks, giving it a distinctive look. \n\n1. **People**: A small group of individuals is walking along the path. They appear to be students, casually dressed, and engaged in conversation. One person is riding a bicycle, adding a dynamic element to the scene.\n\n2. **Objects**: Streetlights line the pathway, casting a warm glow and creating a cozy atmosphere. There are also signs along the path, possibly indicating directions or campus information.\n\n3. **Environmental Features**: On the left side, there\u2019s a landscaped area with trees and shrubs, their leaves rustling gently in the night breeze. The ground is covered with fallen leaves, suggesting it might be autumn.\n\n4. **Activities**: The group seems relaxed, perhaps returning from an event or heading to a late-night study session. The ambiance is calm, with the sounds of footsteps and distant chatter.\n\n5. **Interesting Details**: The lighting creates shadows that enhance the visual appeal of the brickwork. The overall scene conveys a sense of community and the vibrant life of the campus, even at night.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_54ebf623-8e77-4e7b-a418-5fe6b5f6c098",
+            "length_category": "SHORT",
+            "length": 63.00598955154419,
+            "start_time": 1674087865.6205833,
+            "end_time": 1674087928.6265728,
+            "file_info": {
+                "qa_start_filename": "1674087864.170419.pkl",
+                "qa_end_filename": "1674087927.276418.pkl",
+                "context_start_filename": "1674087870.17099.pkl",
+                "context_end_filename": "1674087870.270998.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:24:25. The current time is 2023-01-18 19:25:28 and you are located at [-109.41, 99.62, -4.08]. \n Did you see a man with straw hat?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:24:31, the robot was at an average position of [-63.019, 89.149, -2.362].The robot saw the following: In the video, the scene unfolds on a university campus during nighttime. The ground is paved with a distinctive herringbone pattern, made of light-colored bricks, which adds a textured visual element to the setting.\n\n1. **Lighting**: The area is illuminated by several street lamps, casting a warm glow on the path. A traffic signal is visible, with a blue light indicating that it is safe to cross.\n\n2. **People**: A man is prominently featured, dressed in a light blue shirt and dark pants, wearing a wide-brimmed hat. He appears to be walking casually, possibly checking his phone or holding something in his hands. His demeanor suggests he is either a student or a faculty member.\n\n3. **Surroundings**: The background includes several trees, providing a natural contrast to the urban environment. There are buildings on either side of the path, with large windows that reflect the light from the street lamps. Some bushes line the walkway, adding greenery to the scene.\n\n4. **Activity**: The man walks past, and in the background, there are a few other individuals moving along the path, indicating that the campus is still somewhat active despite the late hour.\n\n5. **Atmosphere**: The overall ambiance feels calm and serene, typical of a university setting at night, with a hint of liveliness from the people present.\n\nThis detailed observation captures the essence of the campus environment, highlighting both the architectural features and the human elements that contribute to the scene.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_080d6400-5c75-470b-bed1-9732e4e90e14",
+            "length_category": "SHORT",
+            "length": 36.00341796875,
+            "start_time": 1674087766.61118,
+            "end_time": 1674087802.614598,
+            "file_info": {
+                "qa_start_filename": "1674087765.161018.pkl",
+                "qa_end_filename": "1674087801.264436.pkl",
+                "context_start_filename": "1674087789.163304.pkl",
+                "context_end_filename": "1674087789.263293.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:46. The current time is 2023-01-18 19:23:22 and you are located at [-57.78, 43.51, -2.52]. \n Did you see a scooter?",
+            "type": "binary",
+            "context": "At time=2023-01-18 19:23:10, the robot was at an average position of [-47.295, 40.973, -2.27].The robot saw the following: In the video, you see a university campus at night. The scene is illuminated by streetlights, casting a warm glow on the pavement. \n\n1. **People**: A few individuals are visible. One person is walking across the open area, while another stands near a low wall, possibly engaged in conversation or using a phone. A cyclist can be seen riding in the background, adding a sense of movement to the scene.\n\n2. **Objects**: There are bicycles parked along the side, indicating a bike-friendly campus. The pavement is smooth and appears well-maintained, with some manhole covers visible.\n\n3. **Environmental Features**: The campus buildings are modern, with large windows reflecting the light. Trees line the walkway, providing some greenery against the urban backdrop. The sky is darkening, hinting at late evening.\n\n4. **Activities**: The atmosphere feels calm and quiet, typical of a university setting at night. The presence of people suggests a mix of social interaction and solitary activities, like studying or relaxing.\n\n5. **Lighting**: The streetlights create a cozy ambiance, contrasting with the darkening sky, which adds to the serene nighttime vibe.\n\nOverall, the scene captures a peaceful moment on a university campus, blending social activity with the tranquility of night.\n\n",
+            "answers": {
+                "text": [
+                    "Yes",
+                    "Yes"
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_daecee53-71ea-40ff-b4dc-92b3cef99ea0",
+            "length_category": "SHORT",
+            "length": 104.04936170578003,
+            "start_time": 1674088330.5255597,
+            "end_time": 1674088434.5749214,
+            "file_info": {
+                "qa_start_filename": "1674088329.075022.pkl",
+                "qa_end_filename": "1674088433.173642.pkl",
+                "context_start_filename": "1674088359.476679.pkl",
+                "context_end_filename": "1674088359.574654.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:32:10. The current time is 2023-01-18 19:33:54 and you are located at [-48.51, 40.09, -2.38]. \n When did you turn around for the first time?",
+            "type": "time",
+            "context": "At time=2023-01-18 19:32:40, the robot was at an average position of [-57.409, 90.229, -2.244].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The ground is made of distinctive herringbone-patterned tiles, giving a warm, inviting feel to the area. \n\n1. **People**: \n   - A person on a scooter is seen moving along the path. They are wearing a blue shirt and a cap, suggesting a casual, relaxed vibe.\n   - Another individual is walking on the same path, dressed in a plaid shirt and light-colored pants, strolling leisurely.\n\n2. **Objects**: \n   - The prominent feature in the scene is a large, abstract sculpture made of metallic elements, which appears to be suspended or reaching outwards. Its design is dynamic and adds an artistic touch to the environment.\n   - Streetlights line the path, casting pools of light that enhance the nighttime ambiance.\n\n3. **Environmental Features**: \n   - The surrounding area includes trees and shrubs, which are subtly visible in the dim light, contributing to the natural feel of the campus.\n   - Buildings are present on one side, with windows reflecting the light, indicating they may be occupied or have activity inside.\n\n4. **Activities**: \n   - The person on the scooter appears to be enjoying a quick ride, while the other individual is walking, possibly heading to a nearby location or simply enjoying the night air.\n\n5. **Atmosphere**: \n   - The overall atmosphere is calm and serene, typical of a university campus at night, with a sense of safety and tranquility enhanced by the lighting and the absence of crowds.\n\nThis scene captures a moment of everyday life in a university setting, showcasing both movement and stillness in a beautifully designed environment.\n\n",
+            "answers": {
+                "text": [
+                    "1.23 minutes ago"
+                ],
+                "time": 1.23
+            }
+        },
+        {
+            "id": "4_SHORT_5e826626-fffb-4d6d-942c-e749c84a458e",
+            "length_category": "SHORT",
+            "length": 52.29927182197571,
+            "start_time": 1674088360.9754033,
+            "end_time": 1674088413.2746751,
+            "file_info": {
+                "qa_start_filename": "1674088359.476679.pkl",
+                "qa_end_filename": "1674088411.873912.pkl",
+                "context_start_filename": "1674088356.376343.pkl",
+                "context_end_filename": "1674088356.476884.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:32:40. The current time is 2023-01-18 19:33:33 and you are located at [-61.17, 51.03, -2.64]. \n When did you see a scooter?",
+            "type": "time",
+            "context": "At time=2023-01-18 19:32:37, the robot was at an average position of [-57.448, 93.205, -2.237].The robot saw the following: In the video, you find yourself on a university campus at night, where the atmosphere is calm and somewhat serene. \n\n1. **Ground and Pathway**: The ground is made of herringbone-patterned bricks, which adds a textured and visually appealing element to the scene. The bricks are well-maintained and create a warm, inviting look.\n\n2. **Lighting**: Street lamps line the pathway, casting a soft, warm glow that illuminates the area. The lights create a contrast against the dark night sky, enhancing the ambiance.\n\n3. **Sculpture**: A striking metallic sculpture is prominently featured in the foreground. Its abstract design consists of elongated, angular shapes that seem to burst outward, adding an artistic flair to the environment. The sculpture reflects the light, giving it a dynamic quality.\n\n4. **Surrounding Environment**: On either side of the pathway, there are trees and shrubs, which provide a touch of greenery. The buildings nearby have large windows, some of which are lit, suggesting activity inside.\n\n5. **People**: A few individuals can be seen walking along the path. They appear relaxed, possibly students enjoying a late-night stroll. One person is riding a bicycle, adding a sense of movement to the scene.\n\n6. **Background**: In the distance, you can see more buildings, some with lights on, indicating that the campus is still alive with activity despite the late hour. The skyline is dotted with taller structures, hinting at the urban setting of the university.\n\nOverall, the scene captures a blend of art, nature, and human activity, creating a vibrant yet tranquil atmosphere on the campus at night.\n\n",
+            "answers": {
+                "text": [
+                    "0.92 minutes ago"
+                ],
+                "time": 0.92
+            }
+        },
+        {
+            "id": "4_SHORT_65732436-fbcb-4c0f-b2ed-51c07e7e4821",
+            "length_category": "SHORT",
+            "length": 70.24619364738464,
+            "start_time": 1674088217.4818456,
+            "end_time": 1674088287.7280393,
+            "file_info": {
+                "qa_start_filename": "1674088215.983389.pkl",
+                "qa_end_filename": "1674088286.379387.pkl",
+                "context_start_filename": "1674088255.679053.pkl",
+                "context_end_filename": "1674088255.78209.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:30:17. The current time is 2023-01-18 19:31:27 and you are located at [-53.84, 158.7, -1.74]. \n When did you see a skateboard?",
+            "type": "time",
+            "context": "At time=2023-01-18 19:30:57, the robot was at an average position of [-54.373, 169.785, -1.543].The robot saw the following: In the video, you are walking through a university campus at night. The scene is illuminated by street lamps, casting a warm glow on the surroundings. \n\n1. **Pathway**: The ground is made of herringbone-patterned bricks, creating a visually appealing texture. The path is wide, allowing for multiple people to walk side by side.\n\n2. **Lighting**: Street lamps line the pathway, providing soft lighting that enhances the nighttime ambiance. The lamps are spaced evenly, creating a rhythmic pattern along the walkway.\n\n3. **Surroundings**: On either side of the path, there are trees and shrubs, adding greenery to the environment. The leaves rustle gently in the night breeze, contributing to the serene atmosphere.\n\n4. **People**: \n   - A few individuals can be seen walking along the path. One person is skateboarding, moving smoothly past the camera. \n   - Others are walking at a leisurely pace, suggesting a relaxed evening atmosphere. \n   - The clothing of the pedestrians indicates a casual style, typical for university students.\n\n5. **Buildings**: In the background, there are several buildings, their windows glowing with light, hinting at ongoing activities inside. Some buildings have banners hanging, possibly promoting events or university spirit.\n\n6. **Signage**: A banner can be seen on a nearby pole, likely providing information or promoting university events, adding to the campus vibe.\n\n7. **Overall Atmosphere**: The scene conveys a sense of calm and community, typical of a university campus at night, where students are likely enjoying their time after classes. The combination of lighting, architecture, and the presence of people creates a welcoming environment.\n\n",
+            "answers": {
+                "text": [
+                    "0.51 minutes ago"
+                ],
+                "time": 0.51
+            }
+        },
+        {
+            "id": "4_SHORT_86414b06-ac65-4282-811c-15290b35fb3f",
+            "length_category": "SHORT",
+            "length": 116.19683623313904,
+            "start_time": 1674088281.6780448,
+            "end_time": 1674088397.874881,
+            "file_info": {
+                "qa_start_filename": "1674088280.178858.pkl",
+                "qa_end_filename": "1674088396.477156.pkl",
+                "context_start_filename": "1674088283.276343.pkl",
+                "context_end_filename": "1674088368.774358.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:31:21. The current time is 2023-01-18 19:33:17 and you are located at [-60.85, 65.48, -2.53]. \n How many times did you turned around?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:31:24, the robot was at an average position of [-53.647, 158.728, -1.727].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The pathway is made of patterned bricks, creating a warm, inviting atmosphere. \n\n1. **People**: \n   - A person stands prominently in the foreground, wearing a brown jacket and gray pants, holding a device in their hands. They have a backpack slung over one shoulder and are looking slightly off-camera.\n   - In the background, several other individuals walk along the path, some in casual attire, suggesting a relaxed evening atmosphere.\n\n2. **Objects**: \n   - The person in the foreground is holding a small electronic device, possibly a phone or a gaming console.\n   - Streetlights line the pathway, casting a soft glow that enhances the nighttime setting.\n\n3. **Environmental Features**: \n   - The pathway is bordered by greenery, with bushes and trees visible on the sides, adding to the natural feel of the campus.\n   - Nearby buildings are faintly visible, their windows reflecting the light, indicating they may be occupied.\n\n4. **Activities/Events**: \n   - The scene suggests a casual evening on campus, with students likely heading to or from social activities or study sessions.\n   - The overall ambiance is peaceful, with the sound of footsteps and distant conversations likely filling the air.\n\n5. **Interesting Details**: \n   - The warm lighting contrasts with the dark sky, creating a cozy yet slightly mysterious vibe.\n   - The patterned brick pathway adds visual interest, guiding the viewer's eye deeper into the scene.\n\nOverall, the video captures a lively yet serene moment on a university campus at night.\n\nAt time=2023-01-18 19:32:40, the robot was at an average position of [-57.409, 90.229, -2.244].The robot saw the following: In the video, you see a university campus at night, illuminated by streetlights. The ground is made of distinctive herringbone-patterned tiles, giving a warm, inviting feel to the area. \n\n1. **People**: \n   - A person on a scooter is seen moving along the path. They are wearing a blue shirt and a cap, suggesting a casual, relaxed vibe.\n   - Another individual is walking on the same path, dressed in a plaid shirt and light-colored pants, strolling leisurely.\n\n2. **Objects**: \n   - The prominent feature in the scene is a large, abstract sculpture made of metallic elements, which appears to be suspended or reaching outwards. Its design is dynamic and adds an artistic touch to the environment.\n   - Streetlights line the path, casting pools of light that enhance the nighttime ambiance.\n\n3. **Environmental Features**: \n   - The surrounding area includes trees and shrubs, which are subtly visible in the dim light, contributing to the natural feel of the campus.\n   - Buildings are present on one side, with windows reflecting the light, indicating they may be occupied or have activity inside.\n\n4. **Activities**: \n   - The person on the scooter appears to be enjoying a quick ride, while the other individual is walking, possibly heading to a nearby location or simply enjoying the night air.\n\n5. **Atmosphere**: \n   - The overall atmosphere is calm and serene, typical of a university campus at night, with a sense of safety and tranquility enhanced by the lighting and the absence of crowds.\n\nThis scene captures a moment of everyday life in a university setting, showcasing both movement and stillness in a beautifully designed environment.\n\nAt time=2023-01-18 19:32:50, the robot was at an average position of [-56.548, 89.43, -2.242].The robot saw the following: In the video, you see a university campus at night, illuminated by street lamps that cast a warm glow on the surroundings. The pathway is made of herringbone-patterned bricks, creating a visually appealing texture underfoot.\n\n### People:\n- **Pedestrians**: Several individuals are walking along the path. They appear to be students, some wearing backpacks, suggesting they are returning from classes or social activities. \n- **Cyclists**: A few cyclists can be seen riding past, indicating a lively campus atmosphere even at night.\n- **Groups**: Small groups of students are chatting and walking together, creating a sense of community.\n\n### Objects:\n- **Street Lamps**: The lamps line the pathway, providing light and enhancing the nighttime ambiance.\n- **Benches and Planters**: There are benches along the path, and planters with shrubs and small plants, adding greenery to the environment.\n\n### Environmental Features:\n- **Trees**: Tall trees line the walkway, their leaves rustling gently in the night breeze, contributing to a serene atmosphere.\n- **Buildings**: In the background, you can see university buildings, some with lit windows, suggesting activity inside.\n\n### Activities:\n- **Social Interactions**: The students appear engaged in conversations, laughing, and enjoying each other's company.\n- **Biking**: The presence of cyclists indicates that the campus is bike-friendly, with paths designated for both walking and biking.\n\n### Interesting Details:\n- **Nighttime Vibe**: The overall ambiance is calm yet vibrant, with the combination of light and shadows creating a picturesque scene.\n- **Footsteps and Sounds**: While not visually captured, one can imagine the sounds of footsteps on the brick path and the distant chatter of students, enhancing the lively campus atmosphere.\n\nThis scene captures the essence of university life, showcasing a blend of social interaction, movement, and a welcoming environment even after dark.\n\n",
+            "answers": {
+                "text": [
+                    "I turned around for 3 times"
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_519b3d63-d1f0-49a5-9c6f-914e6ca4359d",
+            "length_category": "SHORT",
+            "length": 119.2957911491394,
+            "start_time": 1674088073.6852734,
+            "end_time": 1674088192.9810646,
+            "file_info": {
+                "qa_start_filename": "1674088072.18735.pkl",
+                "qa_end_filename": "1674088191.581715.pkl",
+                "context_start_filename": "1674088114.886677.pkl",
+                "context_end_filename": "1674088114.983296.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:27:53. The current time is 2023-01-18 19:29:52 and you are located at [-76.58, 195.38, -1.86]. \n Where is the stair\uff1f",
+            "type": "position",
+            "context": "At time=2023-01-18 19:28:36, the robot was at an average position of [-106.113, 197.164, -2.275].The robot saw the following: In the video, you see a modern university campus interior, characterized by sleek architectural features and a spacious layout. \n\n1. **Environment**: The floor is polished and shiny, reflecting the overhead lights, which create a bright and inviting atmosphere. The walls are made of glass, allowing natural light to flood in, and there are wooden accents on the ceiling that add warmth to the space.\n\n2. **People**: \n   - In the foreground, a small group of students is seated at tables, engaged in conversation or studying. They appear relaxed, with backpacks and laptops scattered around.\n   - Further back, a few individuals are sitting in lounge chairs, possibly taking a break or working on their devices.\n\n3. **Objects**: \n   - The tables are modern and minimalist, paired with metal chairs. Some tables have unique, cylindrical bases.\n   - There are also signs indicating \"Wet Floor,\" suggesting recent cleaning, which adds a layer of caution to the environment.\n\n4. **Activities**: The students seem to be involved in various activities, from studying to socializing. The overall vibe is one of collaboration and community, typical of a university setting.\n\n5. **Architectural Features**: A prominent staircase leads to an upper level, with a wooden structure overhead that adds an artistic element to the space. The design is contemporary, with clean lines and a focus on functionality.\n\nOverall, the scene captures a vibrant and dynamic university atmosphere, where students are engaged in both academic and social pursuits.\n\n",
+            "answers": {
+                "position": [
+                    -106.11330048387099,
+                    197.1642252903226,
+                    -2.274772032258065
+                ]
+            }
+        },
+        {
+            "id": "4_SHORT_ea407d62-977d-4ff2-90dc-d7e6749eaa92",
+            "length_category": "SHORT",
+            "length": 63.00598382949829,
+            "start_time": 1674087766.61118,
+            "end_time": 1674087829.617164,
+            "file_info": {
+                "qa_start_filename": "1674087765.161018.pkl",
+                "qa_end_filename": "1674087828.266998.pkl",
+                "context_start_filename": "1674087798.164152.pkl",
+                "context_end_filename": "1674087798.26416.pkl"
+            },
+            "question": "You started moving at 2023-01-18 19:22:46. The current time is 2023-01-18 19:23:49 and you are located at [-59.05, 68.1, -2.42]. \n Did you turn left or turn right?",
+            "type": "text",
+            "context": "At time=2023-01-18 19:23:19, the robot was at an average position of [-55.629, 42.272, -2.498].The robot saw the following: In the video, you see a university campus at night. The scene is illuminated by street lamps, casting a warm glow on the surroundings. \n\n1. **People**: A person is walking through the area, dressed in dark clothing. They appear to be moving purposefully, possibly heading to or from a building. Their shadow stretches across the pavement, indicating the light source from the lamps.\n\n2. **Objects**: The ground is paved with a patterned surface, likely designed for pedestrian traffic. There are several light poles along the pathway, each topped with a bright light. In the background, you can see some bike racks, suggesting a bike-friendly environment.\n\n3. **Environmental Features**: The campus has trees lining the walkway, providing a natural element amidst the urban setting. The buildings in the background are modern, with large windows that reflect the light, creating a contrast against the darkening sky.\n\n4. **Activities**: The area appears quiet, typical for a university campus at night. The solitary figure walking suggests a peaceful atmosphere, possibly indicating that classes have ended for the day.\n\n5. **Interesting Details**: The combination of light and shadow creates a visually striking scene, enhancing the textures of the pavement and the foliage. The overall ambiance feels calm and serene, typical of a university environment after hours. \n\nOverall, the video captures a moment of solitude and tranquility in a bustling academic setting.\n\n",
+            "answers": {
+                "text": [
+                    "I turned right"
+                ]
+            }
+        }
+    ]
+}

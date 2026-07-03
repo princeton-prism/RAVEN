@@ -1,0 +1,22 @@
+
+params:
+  dataset: null
+  input_path: null
+  output_path: null
+  prompt_folder: null
+  vlm_prompt_folder: null
+  caption_file: null
+  top_k: 5
+  temperature: 0.6
+  num_ctx: 16384
+  max_gen_tokens: 16384
+  max_tool_calls: 3
+  debug: true
+  memory_backend: faiss
+  post_fix: '_0'
+  non_agent_max_image_len: 1500
+  caption_step_num: 1
+  # Filesystem locations. Override in a dataset yaml or via the RAVEN_MEMORY_STORAGE /
+  # RAVEN_IMAGE_CACHE env vars (env vars take precedence at runtime).
+  memory_storage_path: ./output/memory_storage
+  image_cache_path: ./temp_image_cache

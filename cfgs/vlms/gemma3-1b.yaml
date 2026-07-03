@@ -1,0 +1,5 @@
+_base_: base.yaml
+
+params:
+  full_name: "gemma3:1b"
+  nick_name: "gm1"

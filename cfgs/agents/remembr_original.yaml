@@ -1,0 +1,5 @@
+_base_: base.yaml
+params:
+  type: remembr
+  text_emb_model: original
+  

@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: hf
+  hf_model_id: youzexue/QQMM-embed-v2
+  vlm_layer: 0
+  emb_dim: 3584

@@ -1,0 +1,7 @@
+_base_: base.yaml
+params:
+  dataset: habitat_sim
+  input_path: data/habitat_sim_converted
+  output_path: output/habitat_sim/{method_and_models}
+  prompt_folder: prompts/sim_real_prompts
+  vlm_prompt_folder: prompts/sim_real_vlm_prompts

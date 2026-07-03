@@ -1,0 +1,7 @@
+_base_: base.yaml
+
+params:
+  backend: hf
+  hf_model_id: Qwen/Qwen2.5-VL-3B-Instruct
+  vlm_layer: 3
+  emb_dim: 2048 # 1280 for vision encoder

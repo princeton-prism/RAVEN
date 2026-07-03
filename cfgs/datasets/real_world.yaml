@@ -1,0 +1,7 @@
+_base_: base.yaml
+params:
+  dataset: real_world
+  input_path: data/real_world_converted
+  output_path: output/real_world/{method_and_models}
+  prompt_folder: prompts/sim_real_prompts
+  vlm_prompt_folder: prompts/sim_real_vlm_prompts
