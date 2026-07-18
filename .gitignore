@@ -1,6 +1,6 @@
 deps
 test.ipynb
-
+.DS_Store
 
 data/*
 !data/.gitkeep
@@ -11,7 +11,6 @@ data/*
 output/*
 !output/.gitkeep
 
-configs/
 output_refer/
 api_key*
 user.yaml
